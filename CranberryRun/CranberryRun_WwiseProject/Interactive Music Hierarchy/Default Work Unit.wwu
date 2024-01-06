@@ -42,7 +42,9 @@
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{AD5287C1-E2F0-4E70-9F00-6B93F99D9AFC}">
 											<PropertyList>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
@@ -56,6 +58,21 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #4" ID="{F0DCF751-34CF-4F09-8B3C-A53542D2CD1C}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{FF795FF0-92B3-4595-917F-81332C975607}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<TransitionFadeIn>
+													<MusicFade Name="Transition Fade-in" ID="{1949DB65-A629-432F-B7F6-6C81E3ECD768}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+														</PropertyList>
+													</MusicFade>
+												</TransitionFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{85B3A143-727E-452F-84A0-B57A8D928D1C}">
@@ -1317,8 +1334,8 @@
 																				<MusicClip Name="CranberryRun_MenuTheme" ID="{D95EBBCC-9B24-4DD2-ABCC-B8C865C89471}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="59076.9230769229"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="101.91683057039"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="210.064244408946"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="442.44202677016"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="569.328084142878"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="CranberryRun_MenuTheme" ID="{E31C6556-21EB-453C-90F1-909D0A39A26B}"/>
 																					<PropertyCurveList>
