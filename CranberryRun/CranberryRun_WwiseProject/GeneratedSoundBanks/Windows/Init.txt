@@ -1,0 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	787604482	Slow	MusicState			
+	2849147824	Medium	MusicState			
+	2965380179	Fast	MusicState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3306938624	StatusEffect			\Default Work Unit\Master Audio Bus\StatusEffect	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3684206702	Play_MainMusicSwitch			\Default Work Unit\Play_MainMusicSwitch	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	787604482	Slow	MusicState			
+	2849147824	Medium	MusicState			
+	2965380179	Fast	MusicState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32474769	CranberryRun_MenuTheme	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_MenuTheme_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\MenuMusic\CranberryRun_MenuTheme		608614
+	51539956	CranberryRun_Transition3 - Marker #3	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #3_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #3\CranberryRun_Transition3 - Marker #3		48296
+	226880082	CranberryRun_Transition3 - Marker #4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #4\CranberryRun_Transition3 - Marker #4		43102
+	331584380	CranberryRun_Transition3 - Marker #5	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #5_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #5\CranberryRun_Transition3 - Marker #5		33372
+	540179265	CranberryRun_Fast_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Fast_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Fast_130 bpm\CranberryRun_Fast_130 bpm		1050815
+	612642456	CranberryRun_Transition	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition\CranberryRun_Transition		33477
+	886556164	CranberryRun_Transition4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition4\CranberryRun_Transition4		48812
+	964050207	CranberryRun_Slow_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Slow_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Slow_130 bpm\CranberryRun_Slow_130 bpm		469927
+	974797755	CranberryRun_Medium_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Medium_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Medium_130 bpm\CranberryRun_Medium_130 bpm		491723
+

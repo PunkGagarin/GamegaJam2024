@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{93713A06-4265-4DA2-BF40-092A6DD7EE8C}" WorkUnitID="{1B32B3DB-0CBD-4DEA-87D0-205EAD862D2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{FB45814F-7FB3-4A77-959D-67D3BC70A040}"/>
+						<Bus Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}"/>
+						<Bus Name="UI" ID="{650B82F4-B7DA-4306-AE04-E38467B0515C}"/>
+						<Bus Name="StatusEffect" ID="{B5492BC9-8541-47D7-B253-AC384A889C54}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

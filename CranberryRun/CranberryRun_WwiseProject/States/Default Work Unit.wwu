@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicState" ID="{2B57B0B8-534E-4F74-A9C6-98D0349FF632}">
+					<ChildrenList>
+						<State Name="None" ID="{4C07F74B-D42A-4F10-86F4-010B8D03C179}"/>
+						<State Name="Slow" ID="{1C0BA2DB-8FE4-41B0-8D46-8D1035F9F3EF}"/>
+						<State Name="Medium" ID="{5FBA5E90-5153-4E63-8191-DB4358512F85}"/>
+						<State Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GameStatus" ID="{038572D7-071E-4070-B56E-39047E93C6E7}">
+					<ChildrenList>
+						<State Name="None" ID="{EABC886A-C8DB-4EF1-84FD-7B220333E2BA}"/>
+						<State Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}"/>
+						<State Name="InMenu" ID="{A21D5225-CB41-451B-9A89-1B1013A186E7}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
