@@ -34,8 +34,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}"/>
-						<CurrentStateRef Name="PlayerAlive" ID="{C4005EF3-8BB6-4878-BF40-F1E99C67924D}"/>
-						<CurrentStateRef Name="Slow" ID="{1C0BA2DB-8FE4-41B0-8D46-8D1035F9F3EF}"/>
+						<CurrentStateRef Name="None" ID="{DE7AF372-4AA9-42B8-B942-5DC099501F7D}"/>
+						<CurrentStateRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fast" ID="{D0C47875-2C52-4A44-8037-FCCAFEAA4815}"/>

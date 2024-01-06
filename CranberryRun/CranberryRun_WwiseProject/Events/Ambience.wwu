@@ -14,6 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Ambience" ID="{AF1B5AB2-7A52-46A1-9A23-7679EBEC552D}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

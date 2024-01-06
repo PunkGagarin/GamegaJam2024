@@ -134,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 02abf57882fa8540b4923c06de426dac
     GuidInternal: 
-    m_lastTime: -8584970343731520828
+    m_lastTime: -8584970227693744898
     List:
     - name: Game
       guid: 629719aa84540048a20d7f6ad1ada1cc
@@ -165,7 +165,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience
     guid: 9b91174b41a6b34a880b6f7861a4a10f
     GuidInternal: 
-    m_lastTime: -8584970376931859827
+    m_lastTime: -8584970228403054823
     List:
     - name: Ambience
       guid: 4e95d9ca451a3840a8b9092f0682a77a
@@ -187,6 +187,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Ambience
+      guid: b25a1baf527aa1469a237679ebec552d
+      id: 2477713992
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 54beccaa3717d74abdced8f976a4b152
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 9b91174b41a6b34a880b6f7861a4a10f
+      - ElementName: Stop_Ambience
+        ObjectType: 3
+        guid: b25a1baf527aa1469a237679ebec552d
+      Path: Events\Default Work Unit\Ambience\Stop_Ambience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -198,7 +218,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 54beccaa3717d74abdced8f976a4b152
     GuidInternal: 
-    m_lastTime: -8584970343731450774
+    m_lastTime: -8584970332356364332
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -214,7 +234,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Music
     guid: 524edda2f341c0429f8f7c0f5e551c00
     GuidInternal: 
-    m_lastTime: -8584970528388102111
+    m_lastTime: -8584970332356359325
     List:
     - name: Play_MainMusicSwitch
       guid: cf2f34d4340c7145abc0bec7945bb6cc
@@ -250,7 +270,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Objects
     guid: fb0ab0adbbe43747b7b3ef78df4a9bff
     GuidInternal: 
-    m_lastTime: -8584970343731841104
+    m_lastTime: -8584970332356354328
     List:
     - name: Balalaika
       guid: b5678f0d8ca5344991d58e141021f6e3
@@ -270,8 +290,8 @@ MonoBehaviour:
         guid: b5678f0d8ca5344991d58e141021f6e3
       Path: Events\Default Work Unit\Objects\Balalaika
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Bear
       guid: fdb42a10debe2049bf311a21f4cb7a8f
       id: 1190179415
@@ -290,8 +310,8 @@ MonoBehaviour:
         guid: fdb42a10debe2049bf311a21f4cb7a8f
       Path: Events\Default Work Unit\Objects\Bear
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Vodka
       guid: a2721c3555962f44a643d008b1a3d377
       id: 2902123432
@@ -310,8 +330,8 @@ MonoBehaviour:
         guid: a2721c3555962f44a643d008b1a3d377
       Path: Events\Default Work Unit\Objects\Vodka
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Obstacles.wwu
     PathAndIcons:
     - ElementName: Events
@@ -326,7 +346,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Obstacles
     guid: 0d1538501ec1bd4b9df596ac6d02e444
     GuidInternal: 
-    m_lastTime: -8584970343731380707
+    m_lastTime: -8584970332356354328
     List:
     - name: Wall
       guid: a799026cb3929e46bd5d88dd62056188
@@ -346,8 +366,8 @@ MonoBehaviour:
         guid: a799026cb3929e46bd5d88dd62056188
       Path: Events\Default Work Unit\Obstacles\Wall
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -362,7 +382,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Player
     guid: e18cc8f9a562d043907d8f62446711d5
     GuidInternal: 
-    m_lastTime: -8584970343731916178
+    m_lastTime: -8584970332356349320
     List:
     - name: Lost
       guid: 82bb3c030505e64a857a7b4ef9d304fb
@@ -402,8 +422,8 @@ MonoBehaviour:
         guid: 1ca808332b98414e8f1a16c24a7b2682
       Path: Events\Default Work Unit\Player\PlayerHitObstacle
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Rolling
       guid: 51da055b44fa184d97006c85ac76a720
       id: 4227290872
@@ -476,7 +496,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 122e4320c8f475448873747e45fe49ad
     GuidInternal: 
-    m_lastTime: -8584970486091070875
+    m_lastTime: -8584970332356344311
     List:
     - name: RTPC_PlayerSpeed
       guid: 2d995820b304794ca2f9288624b61efa
@@ -504,7 +524,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: df2a88fa732b6d4dac7ee6fe428f2ca9
     GuidInternal: 
-    m_lastTime: -8584970439373398331
+    m_lastTime: -8584970332352661152
     List:
     - name: GameStatus
       guid: d77285031e077040b56e39047e93c6e7
@@ -732,7 +752,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 285947e70383a54e90bac0c2c3aad9a0
     GuidInternal: 
-    m_lastTime: -8584970486091165961
+    m_lastTime: -8584970332352656147
     List:
     - name: Player_Speed
       guid: fac0f44c4913fa4ea088d5fd6b47683f
@@ -815,7 +835,7 @@ MonoBehaviour:
     m_lastTime: -8584971332941604487
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d000000d2000000d3000000d8000000000100000101000002010000d3010000
+  ExpandedWaapiItemIds: 05000000060000000b0000000c0000000d0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{CF03AAA2-57E4-2C59-1173-C6C32458A1B3}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{80839E57-8427-C72E-84CE-D0A6C1178DBF}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -55,7 +55,7 @@
 				</File>
 				<File Id="436758403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>QP14 1752 Quietudes Coniferous Forests night breeze V4.wav</ShortName>
-					<CachePath>SFX/QP14 1752 Quietudes Coniferous Forests night breeze V4_42975750.wem</CachePath>
+					<CachePath>SFX/QP14 1752 Quietudes Coniferous Forests night breeze V4_9131A3BB.wem</CachePath>
 				</File>
 				<File Id="442918512" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MediumMovement.wav</ShortName>
@@ -105,6 +105,8 @@
 						<MediaRef Id="436758403"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3322090543" Name="Balalaika" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1190179415" Name="Bear" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="221232711" Name="Lost" DurationType="OneShot" DurationMin="2.9330318" DurationMax="3.8791711">
 					<MediaRefs>
 						<MediaRef Id="20336947"/>
@@ -175,6 +177,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3877475578" Name="PlayerHitObstacle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4227290872" Name="Rolling" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="4723835"/>
@@ -189,6 +192,9 @@
 						<MediaRef Id="442918512"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2477713992" Name="Stop_Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2902123432" Name="Vodka" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2108779961" Name="Wall" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1080430619" Name="Won" DurationType="OneShot" DurationMin="8.598291" DurationMax="8.598291">
 					<MediaRefs>
 						<MediaRef Id="386822849"/>
@@ -278,5 +284,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{51309B8A-BBD5-2B17-3FE4-0375C27D4BAC}</FileHash>
+	<FileHash>{EEE1E85C-E74C-D4F6-2216-7555EE4C13A5}</FileHash>
 </SoundBanksInfo>
