@@ -5,7 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="Game" ID="{AA199762-5484-4800-A20D-7F6AD1ADA1CC}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Won" ID="{B1F1208A-DE2D-4672-A82B-1022089AD4C0}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Won" ID="{6746BA73-9A07-4886-83AF-3272DC5297D9}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lost" ID="{033CBB82-0505-4AE6-857A-7B4EF9D304FB}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMusicSwitch" ID="{15B95160-C2BE-4C43-8427-93DF497E5F23}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rolling" ID="{5B05DA51-FA44-4D18-9700-6C85AC76A720}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

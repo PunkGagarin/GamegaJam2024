@@ -9,10 +9,18 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{4C78C501-2371-7972-1CB2-669C1040C19A}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{CF03AAA2-57E4-2C59-1173-C6C32458A1B3}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
+				<File Id="4723835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SlowMovement.wav</ShortName>
+					<CachePath>SFX/SlowMovement_E906063A.wem</CachePath>
+				</File>
+				<File Id="20336947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_4921EDD8.wem</CachePath>
+				</File>
 				<File Id="32474769" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_MenuTheme.wav</ShortName>
 					<CachePath>SFX/CranberryRun_MenuTheme_56CEF360.wem</CachePath>
@@ -20,6 +28,14 @@
 				<File Id="51539956" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition3 - Marker #3.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Transition3 - Marker #3_56CEF360.wem</CachePath>
+				</File>
+				<File Id="65226607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_A05DDFBC.wem</CachePath>
+				</File>
+				<File Id="170579158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_20B995E7.wem</CachePath>
 				</File>
 				<File Id="226880082" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition3 - Marker #4.wav</ShortName>
@@ -29,13 +45,41 @@
 					<ShortName>CranberryRun_Transition3 - Marker #5.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Transition3 - Marker #5_56CEF360.wem</CachePath>
 				</File>
+				<File Id="386822849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Win.wav</ShortName>
+					<CachePath>SFX/Win_DCEE9FD9.wem</CachePath>
+				</File>
+				<File Id="434772369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FastMovement.wav</ShortName>
+					<CachePath>SFX/FastMovement_526A5A83.wem</CachePath>
+				</File>
+				<File Id="436758403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>QP14 1752 Quietudes Coniferous Forests night breeze V4.wav</ShortName>
+					<CachePath>SFX/QP14 1752 Quietudes Coniferous Forests night breeze V4_42975750.wem</CachePath>
+				</File>
+				<File Id="442918512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MediumMovement.wav</ShortName>
+					<CachePath>SFX/MediumMovement_6D975967.wem</CachePath>
+				</File>
 				<File Id="540179265" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Fast_130 bpm.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Fast_130 bpm_56CEF360.wem</CachePath>
 				</File>
+				<File Id="608927884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_76B83DD0.wem</CachePath>
+				</File>
 				<File Id="612642456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Transition_56CEF360.wem</CachePath>
+				</File>
+				<File Id="631168734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem</CachePath>
+				</File>
+				<File Id="763560362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
+					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem</CachePath>
 				</File>
 				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition4.wav</ShortName>
@@ -50,7 +94,32 @@
 					<CachePath>SFX/CranberryRun_Medium_130 bpm_56CEF360.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
+				<Event Id="85412153" Name="Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="436758403"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="221232711" Name="Lost" DurationType="OneShot" DurationMin="2.9330318" DurationMax="3.8791711">
+					<MediaRefs>
+						<MediaRef Id="20336947"/>
+						<MediaRef Id="65226607"/>
+						<MediaRef Id="170579158"/>
+						<MediaRef Id="608927884"/>
+						<MediaRef Id="631168734"/>
+						<MediaRef Id="763560362"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="3684206702" Name="Play_MainMusicSwitch" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="51539956"/>
@@ -106,7 +175,36 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4227290872" Name="Rolling" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="4723835"/>
+						<MediaRef Id="434772369"/>
+						<MediaRef Id="442918512"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2225439287" Name="Rolling_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="4723835"/>
+						<MediaRef Id="434772369"/>
+						<MediaRef Id="442918512"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1080430619" Name="Won" DurationType="OneShot" DurationMin="8.598291" DurationMax="8.598291">
+					<MediaRefs>
+						<MediaRef Id="386822849"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="89505537" Name="Gameplay"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="3306938624" Name="StatusEffect"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState">
 					<States>
@@ -125,7 +223,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EF167E3C-37C1-5677-7391-616A8A60237E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{040C73B3-3AAD-5D39-0328-C18AA4546DC3}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -141,6 +239,9 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState">
 					<States>
@@ -157,8 +258,25 @@
 						<State Id="3374585465" Name="InMenu"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="3285234865" Name="PlayerState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2356585300" Name="PlayerDead"/>
+						<State Id="2557321869" Name="PlayerAlive"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1062779386" Name="Player_Speed">
+					<GameParameterRef Id="2653406601"/>
+					<Switches>
+						<Switch Id="787604482" Name="Slow"/>
+						<Switch Id="2849147824" Name="Medium"/>
+						<Switch Id="2965380179" Name="Fast"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0C31A226-D038-BE9A-E24A-5B576A9EF4FA}</FileHash>
+	<FileHash>{51309B8A-BBD5-2B17-3FE4-0375C27D4BAC}</FileHash>
 </SoundBanksInfo>

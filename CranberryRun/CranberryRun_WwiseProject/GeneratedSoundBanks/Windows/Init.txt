@@ -1,6 +1,15 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1062779386	Player_Speed			\Default Work Unit\Player_Speed	
+
+Switch	ID	Name	Switch Group			Notes
+	787604482	Slow	Player_Speed			
+	2849147824	Medium	Player_Speed			
+	2965380179	Fast	Player_Speed			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
 	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
 
 State	ID	Name	State Group			Notes
 	748895195	None	MusicState			
@@ -10,6 +19,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	GameStatus			
 	984691642	InGame	GameStatus			
 	3374585465	InMenu	GameStatus			
+	748895195	None	PlayerState			
+	2356585300	PlayerDead	PlayerState			
+	2557321869	PlayerAlive	PlayerState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	

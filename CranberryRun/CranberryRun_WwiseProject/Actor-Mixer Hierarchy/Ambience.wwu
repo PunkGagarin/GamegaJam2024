@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32D2737D-A40A-4909-9BD0-B855EB2D15CC}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{32D2737D-A40A-4909-9BD0-B855EB2D15CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Ambience" ID="{F568A8C5-564C-4580-810E-2D829D911CA3}" ShortID="1052460162">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="QP14 1752 Quietudes Coniferous Forests night breeze V4" ID="{EC53E679-8A8A-4A42-9771-7FB78EE26116}" ShortID="430543647">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QP14 1752 Quietudes Coniferous Forests night breeze V4" ID="{DD4DA4A9-0AA5-4C33-8805-DE9CB0A79B42}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="3531.733"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.72087088607595"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.893529113924046"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.64749367088608"/>
+										<Property Name="LoopEnd" Type="Real64" Value="58.5757974683544"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.442048309178744"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>QP14 1752 Quietudes Coniferous Forests night breeze V4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="436758403"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QP14 1752 Quietudes Coniferous Forests night breeze V4" ID="{DD4DA4A9-0AA5-4C33-8805-DE9CB0A79B42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

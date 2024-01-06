@@ -18,6 +18,13 @@
 						<State Name="InMenu" ID="{A21D5225-CB41-451B-9A89-1B1013A186E7}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="PlayerState" ID="{1133CFF6-9566-4D8C-873A-892D63332584}">
+					<ChildrenList>
+						<State Name="None" ID="{DE7AF372-4AA9-42B8-B942-5DC099501F7D}"/>
+						<State Name="PlayerAlive" ID="{C4005EF3-8BB6-4878-BF40-F1E99C67924D}"/>
+						<State Name="PlayerDead" ID="{EC4ECD0F-8AE8-4465-A341-3D7D49D276BA}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
