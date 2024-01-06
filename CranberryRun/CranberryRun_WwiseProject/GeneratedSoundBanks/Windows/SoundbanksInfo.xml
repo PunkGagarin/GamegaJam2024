@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{B53957EC-37C0-7C93-8E18-8AD080FE1703}">
+			<ShortName>Game</ShortName>
+			<Path>Game.bnk</Path>
+			<Media>
+				<File Id="32474769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_MenuTheme.wav</ShortName>
+					<CachePath>SFX/CranberryRun_MenuTheme_56CEF360.wem</CachePath>
+				</File>
+				<File Id="51539956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Transition3 - Marker #3.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Transition3 - Marker #3_56CEF360.wem</CachePath>
+				</File>
+				<File Id="226880082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Transition3 - Marker #4.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Transition3 - Marker #4_56CEF360.wem</CachePath>
+				</File>
+				<File Id="331584380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Transition3 - Marker #5.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Transition3 - Marker #5_56CEF360.wem</CachePath>
+				</File>
+				<File Id="540179265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Fast_130 bpm.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Fast_130 bpm_56CEF360.wem</CachePath>
+				</File>
+				<File Id="612642456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Transition.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Transition_56CEF360.wem</CachePath>
+				</File>
+				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Transition4.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Transition4_56CEF360.wem</CachePath>
+				</File>
+				<File Id="964050207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Slow_130 bpm.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Slow_130 bpm_56CEF360.wem</CachePath>
+				</File>
+				<File Id="974797755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CranberryRun_Medium_130 bpm.wav</ShortName>
+					<CachePath>SFX/CranberryRun_Medium_130 bpm_56CEF360.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3684206702" Name="Play_MainMusicSwitch" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="51539956"/>
+						<MediaRef Id="226880082"/>
+						<MediaRef Id="331584380"/>
+						<MediaRef Id="612642456"/>
+						<MediaRef Id="886556164"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="3374585465"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="32474769"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="787604482"/>
+									<MediaRefs>
+										<MediaRef Id="964050207"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2849147824"/>
+									<MediaRefs>
+										<MediaRef Id="974797755"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2965380179"/>
+									<MediaRefs>
+										<MediaRef Id="540179265"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="787604482" Name="Slow"/>
+						<State Id="2849147824" Name="Medium"/>
+						<State Id="2965380179" Name="Fast"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1045871717" Name="GameStatus">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="984691642" Name="InGame"/>
+						<State Id="3374585465" Name="InMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EF167E3C-37C1-5677-7391-616A8A60237E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="89505537" Name="Gameplay"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="3306938624" Name="StatusEffect"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="787604482" Name="Slow"/>
+						<State Id="2849147824" Name="Medium"/>
+						<State Id="2965380179" Name="Fast"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1045871717" Name="GameStatus">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="984691642" Name="InGame"/>
+						<State Id="3374585465" Name="InMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6F3DC3D1-867F-8044-4A52-30FC47B3401D}</FileHash>
+</SoundBanksInfo>

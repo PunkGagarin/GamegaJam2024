@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="CranberryRun_WwiseProject" GUID="{5050F401-AAD7-445F-AC92-CED6C762C38E}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../../../../CranberryRun_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{EA33A7DB-FC57-4B2C-99D7-F7FB27196F04}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../CranberryRun_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{8BC64636-6376-4CFA-9977-00FF0113EAB3}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../CranberryRun_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{CA90CBC9-1FF0-45EA-830D-20B27A6998E9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{B957B4A1-B81D-02D6-EA6C-EA0B66D2EF37}</FileHash>
+</ProjectInfo>

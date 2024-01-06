@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}" SchemaVersion="119">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MainMusicSwitch" ID="{15B95160-C2BE-4C43-8427-93DF497E5F23}" ShortID="601655821">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="130"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{9F725506-CA35-458C-89A2-D84D91918B2A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{201B8E27-EAD5-4D6B-8F39-E5E5D4987660}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{AA599C07-33E3-462D-BD4F-A997FA0AF5C7}">
+														<PropertyList>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{D6A39F53-D601-426C-9573-C3F32B1A6E75}"/>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{AD5287C1-E2F0-4E70-9F00-6B93F99D9AFC}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MenuMusic" ID="{7ABECA1D-0EDA-4B8A-A7C2-C7C0EC8BB68E}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #4" ID="{F0DCF751-34CF-4F09-8B3C-A53542D2CD1C}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{85B3A143-727E-452F-84A0-B57A8D928D1C}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #3" ID="{9C39079C-0487-4697-A48B-F035552E15D9}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{D69323F8-6479-4834-A5BC-0ED4CE9007E2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition4" ID="{36ABDC4B-1F66-49E9-B661-04A0622CF110}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{CADFBD98-40A8-4D8F-8857-0503E288D1A2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition" ID="{4F31D226-76AF-4A07-BD8B-6CBA711E36DE}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{D5EA12C2-F1E5-43EB-8A00-5E9AF8C09FBB}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #5" ID="{E016E0AA-22AD-4C39-9C3D-62E4AF0D7C1C}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="CranberryRun_Transition" ID="{4F31D226-76AF-4A07-BD8B-6CBA711E36DE}" ShortID="423742358">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition" ID="{13F5ADEE-C9AB-414E-A2C5-1DA21DDEFD35}" ShortID="654688561">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{DA71B4C2-6E08-4BF2-B279-4559C72227D3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition" ID="{5DE4D971-C171-494C-874B-1ABA5FF73E44}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612642456"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{946400AE-E8E0-4293-86C7-573B67355CFE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition" ID="{8E5B413F-1332-4684-958A-BC03C3CAB6ED}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1846.14512471655"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="20.3419225042497"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="39.5677365827505"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition" ID="{5DE4D971-C171-494C-874B-1ABA5FF73E44}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{249363B5-0D8E-496A-B09E-038627CBC57E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{361C23C3-DC80-4DDF-A095-12CE66586157}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1846.14512471655"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition2" ID="{CF0E3B1F-CC76-4732-A1A4-DF4E0696757C}" ShortID="284881252">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition2" ID="{882A796E-2112-46B4-8613-EF00227E9125}" ShortID="949221903">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1361C7D5-2B38-42B7-A588-11DE77D5E428}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition2" ID="{C267013C-633A-43B5-A51F-14DA39CC730C}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="628316864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FD440B5C-33A0-45FC-A9CC-7177784429DA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition2" ID="{4CE5939F-5BAF-431C-9AF2-002393437B26}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1846.14512471655"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="15.267175572519"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="15.2671755725191"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition2" ID="{C267013C-633A-43B5-A51F-14DA39CC730C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{A0EE4F60-A73F-43CE-B03B-4D63C96B7066}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0FCBD7C4-97BC-42D4-ADDE-3C5D040EE3DC}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1846.14512471655"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition3 - Marker #1" ID="{C2365FFF-4FCD-4B44-A9D8-A74CAD9CD9D0}" ShortID="523525545">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition3 - Marker #1" ID="{CA40CACB-4A09-468B-8AEB-561CB70DF2A0}" ShortID="461630269">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{CAD564A1-2BA5-4CBF-BC6C-C94C39159EEE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition3 - Marker #1" ID="{510B6267-D115-4441-94EA-C561970099B6}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition3 - Marker #1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="970679069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C462C288-3024-449A-A484-857231BFF2F0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition3 - Marker #1" ID="{731987F3-6A94-4D68-A750-6B502FDAE35C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2423.07692307693"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="20.356234096692"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="671.755725190839"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition3 - Marker #1" ID="{510B6267-D115-4441-94EA-C561970099B6}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{4306D422-2F8C-4190-8B54-B0797939F9B2}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.42308</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{5C4C75DF-B71A-4B20-8152-C0C9EB74F43C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.42308</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{F6EAA488-2037-4BB8-AE3A-A082B872AB27}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.42308</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D8E4E4AD-8717-40CA-8134-6787C2ABB4D1}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{829BE588-E512-4D4D-9A19-8006F7A0763D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2423.07692307692"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition3 - Marker #2" ID="{4B8EC73C-6817-4D6D-B09C-99395FEF7191}" ShortID="705198459">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition3 - Marker #2" ID="{5CD40F47-614B-4281-B862-43D4DC052AAD}" ShortID="912104111">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{E352D7E9-653C-4E7E-B020-02BD42FC3C09}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition3 - Marker #2" ID="{9849526B-9DF4-4A04-B62E-B0D7AB895AC5}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition3 - Marker #2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1029661117"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3FF7980F-4AD9-4CEC-B688-41E8B4AD0779}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition3 - Marker #2" ID="{92273147-2A22-4EA6-A7A2-32AF5E9DD676}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2251.30376832667"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="25.4452926208652"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="351.145038167939"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition3 - Marker #2" ID="{9849526B-9DF4-4A04-B62E-B0D7AB895AC5}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{3B343273-D449-40EC-83CA-BE49FF652BFE}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.2513</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{2BC54B41-0D2B-49BB-BB0F-FF349FAAAB15}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.2513</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{D719A93C-1C47-4ABD-8C2E-C3E20534D7CF}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.2513</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B147A793-B43D-4649-A4DD-890615DD2950}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{02052E54-6397-4735-8C59-239E202760A3}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2251.30376832667"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition3 - Marker #3" ID="{9C39079C-0487-4697-A48B-F035552E15D9}" ShortID="243003286">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition3 - Marker #3" ID="{A84CD86F-06DA-483C-B6B8-8000D931D968}" ShortID="814608253">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{96C39383-643B-4F19-8CA6-65FF1545B1A9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition3 - Marker #3" ID="{8F4AA46A-B4BA-4EB0-BABD-603535ED600B}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition3 - Marker #3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="51539956"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1C33C375-0E4F-49FE-90CA-BB0EA555EF64}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition3 - Marker #3" ID="{0079B21D-0BD0-46C8-88F6-934983C996D5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3074.57428068115"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="15.2671755725191"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="427.480916030534"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition3 - Marker #3" ID="{8F4AA46A-B4BA-4EB0-BABD-603535ED600B}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{AF204548-6E58-4A2D-A993-E634E33647B9}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>3.07457</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{969A28B6-B98F-41A0-9C9D-64804D925140}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>3.07457</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{70257F38-BBFA-40C0-89F1-0915AC4FF82D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>3.07457</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{866C2859-6D0B-44E7-A8B3-E1456FBE8DE7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D18F7DD4-7215-41E0-86BE-49974CC937FB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition3 - Marker #4" ID="{F0DCF751-34CF-4F09-8B3C-A53542D2CD1C}" ShortID="948044335">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition3 - Marker #4" ID="{33009885-21BA-4F7C-AA4C-D7B71B2A70E1}" ShortID="393978054">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{D4298868-E29A-4C7E-8BD9-E52936FCA451}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition3 - Marker #4" ID="{7972CCFA-0DBD-4320-A382-22C004191CF4}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition3 - Marker #4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226880082"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A7542372-8869-46CC-B23E-A0372A6E0C9E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition3 - Marker #4" ID="{0A1946CC-C4A4-4033-A41A-233DEC8E39C9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2538.46153846154"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="330.788804071247"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition3 - Marker #4" ID="{7972CCFA-0DBD-4320-A382-22C004191CF4}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{225369D0-7C3C-4870-A4C1-AD9D0B0645F2}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.53846</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{7FFA3283-970C-4B73-B776-2DBB8E3BF24D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.53846</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{F52DA4A3-AFD0-431C-80FC-63C21209339C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.53846</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{98B737CC-B3ED-425C-97CE-C050A81D4C3F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{8DDD43D2-F95B-4F3A-A527-42B687304FC7}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2538.46153846154"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition3 - Marker #5" ID="{E016E0AA-22AD-4C39-9C3D-62E4AF0D7C1C}" ShortID="316380582">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition3 - Marker #5" ID="{C168757B-5BAD-460E-A548-01D1D5804E8D}" ShortID="1071400296">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0EDC5D71-6DD1-42BF-B86C-3FFFBF8F7DDE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition3 - Marker #5" ID="{47D4D120-36A1-4457-95C9-2C08936649C2}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition3 - Marker #5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331584380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{26700A19-51EC-46E7-890C-A86D86995EA8}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition3 - Marker #5" ID="{293FCBAD-0DFB-48C7-B33D-8E3599259A25}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2192.30769230769"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="25.4452926208652"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="437.65903307888"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition3 - Marker #5" ID="{47D4D120-36A1-4457-95C9-2C08936649C2}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{9BF274FC-C56E-46D0-AF6D-7C52075A13A3}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.19231</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{B4DC2822-06DC-4A72-BA08-6BE69C931884}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.19231</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{E708D7DA-795D-4E7C-8A78-0405A2081302}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.19231</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2059100F-8F65-4695-95E8-5F84AB60D604}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{6B6D9E1C-05FB-4463-8F7E-0F958FF4DF81}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2144.92150040678"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="CranberryRun_Transition4" ID="{36ABDC4B-1F66-49E9-B661-04A0622CF110}" ShortID="187084054">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CranberryRun_Transition4" ID="{11CF9884-5D13-4479-82DE-2E92BBE40005}" ShortID="1002435709">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{419075D3-FF50-4766-AF9F-F9A95CD5193D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CranberryRun_Transition4" ID="{0E076859-B592-40EC-AABF-E2DE9B564FFA}">
+											<Language>SFX</Language>
+											<AudioFile>CranberryRun_Transition4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="886556164"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{52477CFD-EB93-4897-9525-F0AD7430DA48}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="CranberryRun_Transition4" ID="{28857597-BFAC-40A0-AB97-B76B6800267B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2600.99150092607"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="1363.86768447837"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="CranberryRun_Transition4" ID="{0E076859-B592-40EC-AABF-E2DE9B564FFA}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{731976E1-D1DB-420C-9737-D66855327F38}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.60099</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{6ECA3E4F-561E-4C30-AD84-FF3AC0C26620}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.60099</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{FB6E9F9F-4F70-4E72-94C3-92A68883C274}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.60099</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{3FBF877E-C2D9-48EC-AEE8-ABC66D1C175A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{009EB50E-3125-42B8-B414-7BBC7931D06E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2538.46153846154"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicPlaylistContainer Name="MusicPlaylist" ID="{4F422689-7905-4EE8-81A8-80B8CC80ECBD}" ShortID="392700963">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{D33A70ED-C89B-45A6-84BE-7E6C9A5073AE}" ShortID="264013987">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{2D3A6FD2-1FBB-423A-8886-AF70A1979452}" ShortID="497804440">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="MenuMusic" ID="{7ABECA1D-0EDA-4B8A-A7C2-C7C0EC8BB68E}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{96E746D5-3FC3-497D-9C82-67EF6BFA255A}" ShortID="258618501">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{7FE9BF24-8CC2-464D-994C-78A44AB60A4E}" ShortID="945528547">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{7A54ACC2-8A87-41C6-999D-B73ECBCF5AA4}" ShortID="722775096">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{BE82DE86-24D1-4194-9016-C92A9E8698CB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{4B09E8E1-E8EC-4F6A-9484-CBBE861216AB}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MenuMusic" ID="{7ABECA1D-0EDA-4B8A-A7C2-C7C0EC8BB68E}" ShortID="777536190">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="265846.153846154"/>
+										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="CranberryRun_MenuTheme" ID="{1A7AAA41-159E-41B1-9356-BB2724A55755}" ShortID="724367398">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9E85DF84-D030-4FF1-97F7-00DBDA5655E2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CranberryRun_MenuTheme" ID="{E31C6556-21EB-453C-90F1-909D0A39A26B}">
+													<Language>SFX</Language>
+													<AudioFile>CranberryRun_MenuTheme.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="32474769"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B9A21050-586C-4DF3-9558-BA540FF3F3BE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="CranberryRun_MenuTheme" ID="{D95EBBCC-9B24-4DD2-ABCC-B8C865C89471}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="59076.9230769229"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="101.91683057039"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="210.064244408946"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="CranberryRun_MenuTheme" ID="{E31C6556-21EB-453C-90F1-909D0A39A26B}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{58E7F2D6-48A1-400E-ADF1-DE5346CF41C0}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>59.07692</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{3E6750FB-1D18-4124-9595-DDC99E88C6AC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>59.07692</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{7D976C47-A1FF-4EAF-8A97-65C320930069}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>59.07692</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6F5F64EF-3281-45FF-8078-4FB3A084EECB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{419F6FC9-BE94-4111-8F00-12EDC43503B8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="59076.9160997732"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" ShortID="182314336">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="96000"/>
+										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="CranberryRun_Slow_130 bpm" ID="{BC9CBE3F-8AE0-4018-B752-25FA81A3BDC3}" ShortID="552140200">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{7DD7493A-DC8A-441D-8394-8339EDD6ECBD}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CranberryRun_Slow_130 bpm" ID="{FB801728-F6C2-4564-806E-39D8D70E42EB}">
+													<Language>SFX</Language>
+													<AudioFile>CranberryRun_Slow_130 bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964050207"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F77575F8-9A37-4038-851C-CA2D2277F92A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="CranberryRun_Slow_130 bpm" ID="{C3E5A8B1-6A6B-4F9B-BF8B-7B168257EA39}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="88615.3741496602"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="6.25177163221417"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="9.45580459372286"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="CranberryRun_Slow_130 bpm" ID="{FB801728-F6C2-4564-806E-39D8D70E42EB}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{95FE4B66-9092-4600-9B05-BC58DECC85BB}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61537</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{C8B4BBD2-4842-4D28-ABCF-A1F9BD5E103D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61537</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{B6C67C57-203E-4B25-9AAA-4D55135C67A7}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61537</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C7A14310-224E-4CB9-AE01-02AEFB2AE3C3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{BDCC6F99-CD8F-4C0A-B539-0B3DC879B4D0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="88615.3741496599"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" ShortID="1054579896">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="97936.4090951407"/>
+										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="CranberryRun_Medium_130 bpm" ID="{2A6DD245-EB37-40B4-B2E5-6FB3034AF7C6}" ShortID="548420484">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{0E319850-3228-4438-97AF-36A7AA099D55}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CranberryRun_Medium_130 bpm" ID="{F87A1C2C-6731-4871-B90B-A18FCA4CA770}">
+													<Language>SFX</Language>
+													<AudioFile>CranberryRun_Medium_130 bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="974797755"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7EEB97C8-DB13-40EE-8326-8517FD75906B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="CranberryRun_Medium_130 bpm" ID="{E22862AF-35D4-4166-BC59-EC4686CA8623}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="88615.3846153848"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="4.87055063818784"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="7.64293716657266"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="CranberryRun_Medium_130 bpm" ID="{F87A1C2C-6731-4871-B90B-A18FCA4CA770}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{2943FA20-AE4E-45CF-BABC-B13E7D79FAFD}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61538</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B8CF11BD-1325-40AF-8C7F-B5A9A29708A7}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61538</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F6A902FA-39CC-41C3-86E0-55084175A487}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>88.61538</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C568D6ED-A8D9-408B-9DDE-2AF8C0EDE1A2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6B456DA6-7658-4509-A8DD-3800A4D827B1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="88615.3846153846"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" ShortID="812793863">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="369230.769230769"/>
+										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="CranberryRun_Fast_130 bpm" ID="{53385DCF-509B-470A-ACF9-D71F6A4D8995}" ShortID="397579281">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{7027021B-EA1F-4215-91C2-5F7F1ABC05E5}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<MusicTransition Name="Transition" ID="{F33F790C-7D25-4C26-984A-30896535A380}">
+																	<TransitionInfo/>
+																</MusicTransition>
+															</ChildrenList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CranberryRun_Fast_130 bpm" ID="{5CC02F56-001F-40C9-99B9-C8C3611A51E1}">
+													<Language>SFX</Language>
+													<AudioFile>CranberryRun_Fast_130 bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="540179265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1C54EE8F-D442-4A72-B0E9-796A0A217B67}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="CranberryRun_Fast_130 bpm" ID="{160FCBC7-0E5C-4ED9-8591-427DDBD7C9BE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="177230.76923077"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="6.3328263915201"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="67.5922559877508"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="CranberryRun_Fast_130 bpm" ID="{5CC02F56-001F-40C9-99B9-C8C3611A51E1}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{05DEA2B2-61A7-4875-8F05-14FFDE25A3B9}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>177.23077</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{77C55AC1-B00B-4D33-8803-FA966D76327F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>177.23077</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{DF2E7DC7-AE53-42AC-AEF1-85233C40ED09}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>177.23077</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A83F9B66-4F34-4F89-86C1-989B38250F93}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AB658C5B-4118-44B8-B37B-CDDBC26E2B14}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="177230.74829932"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="GameStatus" ID="{038572D7-071E-4070-B56E-39047E93C6E7}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="MusicState" ID="{2B57B0B8-534E-4F74-A9C6-98D0349FF632}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{F680F94E-0F06-47FE-B92E-38263F9B093F}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MenuMusic" ID="{7ABECA1D-0EDA-4B8A-A7C2-C7C0EC8BB68E}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="InMenu" ID="{A21D5225-CB41-451B-9A89-1B1013A186E7}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="MusicState" ID="{2B57B0B8-534E-4F74-A9C6-98D0349FF632}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{D782F342-B0DA-49BC-A17F-C5627A041CAE}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="Slow" ID="{1C0BA2DB-8FE4-41B0-8D46-8D1035F9F3EF}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{5BCF63C9-898A-498C-BB04-F97BEEFE3013}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="Medium" ID="{5FBA5E90-5153-4E63-8191-DB4358512F85}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{E0CD7F48-C162-44A1-BE40-2502740DA3DE}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}" WorkUnitID="{FA882ADF-2B73-4D6D-AC7E-E6FE428F2CA9}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
