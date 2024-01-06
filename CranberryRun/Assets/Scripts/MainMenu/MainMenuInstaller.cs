@@ -1,9 +1,24 @@
-﻿using Zenject;
+﻿using UnityEngine;
+using Zenject;
 
-public class MainMenuInstaller : MonoInstaller
+namespace MainMenu
 {
 
-    public override void InstallBindings()
+    public class MainMenuInstaller : MonoInstaller
     {
+
+        [SerializeField]
+        private MainMenuManager _mainMenuManager;
+
+        public override void InstallBindings()
+        {
+            Container.BindInterfacesAndSelfTo<SceneLevelManager>()
+                .AsSingle();
+
+            Container.BindInterfacesAndSelfTo<MainMenuManager>()
+                .FromInstance(_mainMenuManager)
+                .AsSingle();
+        }
     }
+
 }

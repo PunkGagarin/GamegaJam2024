@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3017e9c84384f14e9ff9536c474129a, type: 3}
+  m_Name: 1C0BA2DB-8FE4-41B0-8D46-8D1035F9F3EF
+  m_EditorClassIdentifier: 
+  objectName: Slow
+  id: 787604482
+  guid: 1C0BA2DB-8FE4-41B0-8D46-8D1035F9F3EF
+  WwiseStateGroupReference: {fileID: 11400000, guid: 2004ea38e32100845a280baece8d67ad,
+    type: 2}
