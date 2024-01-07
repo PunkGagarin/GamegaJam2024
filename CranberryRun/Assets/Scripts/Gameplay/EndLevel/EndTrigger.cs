@@ -1,13 +1,18 @@
 using System;
 using UnityEngine;
 
-public class EndTrigger : MonoBehaviour
+namespace Gameplay.EndLevel
 {
 
-    public Action OnEndTriggerPassed = delegate { };
-
-    private void OnTriggerEnter(Collider other)
+    public class EndTrigger : MonoBehaviour
     {
-        OnEndTriggerPassed.Invoke();
+
+        public Action OnEndTriggerPassed = delegate { };
+
+        private void OnTriggerEnter(Collider other)
+        {
+            OnEndTriggerPassed.Invoke();
+        }
     }
+
 }

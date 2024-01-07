@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" SchemaVersion="119" RootDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" ParentDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}">
+	<Events>
+		<WorkUnit Name="Player" ID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" OwnerID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Rolling" ID="{5B05DA51-FA44-4D18-9700-6C85AC76A720}">
+					<ChildrenList>
+						<Action Name="" ID="{82337B22-76D4-44A3-86F0-5D6F8310A266}" ShortID="543771391">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lost" ID="{033CBB82-0505-4AE6-857A-7B4EF9D304FB}">
+					<ChildrenList>
+						<Action Name="" ID="{D5A855B9-7775-4915-8584-EB69D6184256}" ShortID="876693369">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{ECE2437F-F8B8-4182-9729-F02A9AB45C94}" ShortID="412784135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lost" ID="{A20BFEFE-BA7C-4245-B2D5-9E08AD75B655}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Won" ID="{6746BA73-9A07-4886-83AF-3272DC5297D9}">
+					<ChildrenList>
+						<Action Name="" ID="{DCD6A06F-B101-4083-8A9B-9DF5C0894317}" ShortID="562457723">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{ADFDC276-6533-423B-8AE3-8E8C9516BF6E}" ShortID="718859241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Won" ID="{B1F1208A-DE2D-4672-A82B-1022089AD4C0}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rolling_Stop" ID="{DDC5EFEB-8EC7-44D6-8EAB-F79C64C15D04}">
+					<ChildrenList>
+						<Action Name="" ID="{BC6CF8DC-E0D2-4E97-B5BB-D59DA928E1ED}" ShortID="178856246">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

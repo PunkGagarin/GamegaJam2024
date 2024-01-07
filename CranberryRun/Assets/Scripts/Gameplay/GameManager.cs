@@ -1,4 +1,6 @@
-﻿using Gameplay.EndLevel;
+﻿using System;
+using Gameplay.Characters.Player;
+using Gameplay.EndLevel;
 using Gameplay.Player;
 using UnityEngine;
 using Zenject;
@@ -10,7 +12,7 @@ namespace Gameplay
     public class GameManager : MonoBehaviour
     {
 
-        private bool _isGameStopped;
+        public bool IsGameStopped { get; private set; }
         private int _restartTimeMilis;
 
         [Inject] private PlayerCollision _playerCollision;
@@ -23,6 +25,7 @@ namespace Gameplay
         [SerializeField]
         private float _restartTime;
 
+        public Action OnGameEnded = delegate {  };
 
         public void Awake()
         {
@@ -45,17 +48,20 @@ namespace Gameplay
                 return;
             }
 
-            _isGameStopped = true;
+            IsGameStopped = true;
+            OnGameEnded.Invoke();
+            _sceneLevelManager.SetCurrentSceneAsFinished();
             _playerMovement.StopMovement();
             _endLevelManager.OpenUI();
         }
 
         private void OnObstacleHit()
         {
-            if (_isGameStopped) return;
+            if (IsGameStopped) return;
 
+            IsGameStopped = true;
+            OnGameEnded.Invoke();
             _loseLevelUI.TurnOn();
-            _isGameStopped = true;
             RestartWithDelay(_restartTimeMilis);
         }
 
@@ -72,7 +78,7 @@ namespace Gameplay
 
         public bool CanWin()
         {
-            return !_isGameStopped;
+            return !IsGameStopped;
         }
 
         public void PauseGame()

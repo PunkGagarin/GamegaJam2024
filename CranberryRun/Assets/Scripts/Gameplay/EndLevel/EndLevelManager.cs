@@ -31,13 +31,12 @@ namespace Gameplay.EndLevel
 
         private void OnNextLevelPressedHandle()
         {
-            Debug.Log("On next level pressed handle");
-           _sceneLevelManager.RestartCurrentLevel();
+            
+           _sceneLevelManager.ChangeToNextLevel();
         }
 
         private void OnMenuButtonPressedHandle()
         {
-            Debug.Log("On OnMenuButtonPressedHandle pressed handle");
             _sceneLevelManager.ChangeToMainMenu();
         }
     }
