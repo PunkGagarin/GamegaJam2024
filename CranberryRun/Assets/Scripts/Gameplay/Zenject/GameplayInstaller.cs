@@ -21,6 +21,9 @@ namespace Gameplay.Zenject
         
         [SerializeField]
         private LoseLevelUI _loseLevelUI;
+        
+        [SerializeField]
+        private GroundBoundsChecker _groundBounds;
 
         public override void InstallBindings()
         {
@@ -42,6 +45,10 @@ namespace Gameplay.Zenject
             
             Container.Bind<LoseLevelUI>()
                 .FromInstance(_loseLevelUI)
+                .AsSingle();
+            
+            Container.Bind<GroundBoundsChecker>()
+                .FromInstance(_groundBounds)
                 .AsSingle();
 
             Container.BindInterfacesAndSelfTo<EndLevelManager>()
