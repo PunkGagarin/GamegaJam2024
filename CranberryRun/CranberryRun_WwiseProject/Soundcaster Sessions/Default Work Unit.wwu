@@ -37,7 +37,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}"/>
+						<CurrentStateRef Name="InMenu" ID="{A21D5225-CB41-451B-9A89-1B1013A186E7}"/>
 						<CurrentStateRef Name="None" ID="{DE7AF372-4AA9-42B8-B942-5DC099501F7D}"/>
 						<CurrentStateRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
 					</CurrentStateList>
