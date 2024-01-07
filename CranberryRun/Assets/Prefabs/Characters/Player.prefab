@@ -110,7 +110,7 @@ MonoBehaviour:
   _accelerationSpeed: 2
   <ForwardForce>k__BackingField: 1100
   <SideForce>k__BackingField: 150
-  <CurrentSpeedThreshold>k__BackingField: 30
+  <CurrentSpeedThreshold>k__BackingField: 22.5
   <MaxSpeedThreshold>k__BackingField: 60
 --- !u!114 &7370814107580244107
 MonoBehaviour:

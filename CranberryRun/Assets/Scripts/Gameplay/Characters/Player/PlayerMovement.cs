@@ -82,12 +82,12 @@ namespace Gameplay.Characters.Player
 
             _rigidbody.AddForce(0, 0, ForwardForce * Time.fixedDeltaTime);
 
-            if (Input.GetKey("d"))
+            if (Input.GetKey("d") || Input.GetKey("right"))
             {
                 MoveToRight();
             }
 
-            if (Input.GetKey("a"))
+            if (Input.GetKey("a") || Input.GetKey("left"))
             {
                 MoveToLeft();
             }
