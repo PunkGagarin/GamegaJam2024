@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4869314123180414093}
   m_Layer: 0
-  m_Name: speed_platssorm
+  m_Name: speed_platssorm 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 814eaae85ab94f74284d2b2d67f961e1, type: 2}
+      objectReference: {fileID: 2100000, guid: 763a8a95458a14441aa430d606352ab1, type: 2}
+    - target: {fileID: -5754084199372789682, guid: e9d0373c27d642a4197fd9b2ae22468b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -6085513096910168692, guid: 33140b4512ee79146bcea5fe5acec3d5,
+        type: 3}
     - target: {fileID: 919132149155446097, guid: e9d0373c27d642a4197fd9b2ae22468b,
         type: 3}
       propertyPath: m_Name
