@@ -25,11 +25,15 @@
 							<ObjectRef Name="Play_MainMusicSwitch" ID="{D4342FCF-0C34-4571-ABC0-BEC7945BB6CC}" WorkUnitID="{A2DD4E52-41F3-42C0-9F8F-7C0F5E551C00}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
-							<Value>3500</Value>
+							<Value>15.232</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -38,7 +42,7 @@
 						<CurrentStateRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Fast" ID="{D0C47875-2C52-4A44-8037-FCCAFEAA4815}"/>
+						<CurrentSwitchRef Name="Slow" ID="{31A1613B-068B-47AF-A392-0B3337CEF6DF}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

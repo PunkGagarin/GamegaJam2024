@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<GameParameter Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1100"/>
-						<Property Name="Max" Type="Real64" Value="3500"/>
+						<Property Name="InitialValue" Type="Real64" Value="25"/>
+						<Property Name="Max" Type="Real64" Value="45"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

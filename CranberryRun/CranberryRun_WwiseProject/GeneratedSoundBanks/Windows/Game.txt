@@ -43,6 +43,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
 	3164629247	Holy	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -59,10 +61,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	436758403	QP14 1752 Quietudes Coniferous Forests night breeze V4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\QP14 1752 Quietudes Coniferous Forests night breeze V4_9131A3BB.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\QP14 1752 Quietudes Coniferous Forests night breeze V4		859350
 	442918512	MediumMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MediumMovement_6D975967.wem		\Actor-Mixer Hierarchy\Player\Rolling\Medium\MediumMovement		339199
 	540179265	CranberryRun_Fast_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Fast_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Fast_130 bpm\CranberryRun_Fast_130 bpm		1050815
+	584922121	PlayerHitObstacle_3	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_3_5990C61B.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_3		4535
 	608927884	Lost	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_76B83DD0.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost		47712
 	612642456	CranberryRun_Transition	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition\CranberryRun_Transition		33477
 	631168734	Lost_05	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_05		37902
+	637546919	PlayerHitObstacle_2	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_2_30A6E599.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_2		5107
 	763560362	Lost_02	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_02		49799
+	844252909	PlayerHitObstacle_1	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_1_48D226A7.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_1		5639
 	886556164	CranberryRun_Transition4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition4\CranberryRun_Transition4		48812
 	964050207	CranberryRun_Slow_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Slow_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Slow_130 bpm\CranberryRun_Slow_130 bpm		469927
 	974797755	CranberryRun_Medium_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Medium_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Medium_130 bpm\CranberryRun_Medium_130 bpm		491723

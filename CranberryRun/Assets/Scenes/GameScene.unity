@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20887695, g: 0.229376, b: 0.21019766, a: 1}
+  m_IndirectSpecularColor: {r: 0.20887831, g: 0.22937876, b: 0.21019763, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2334,6 +2334,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219744807}
   m_CullTransparentMesh: 1
+--- !u!1 &1344183343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6065394511051387454, guid: c8b84db83b0902f49804540d2ba3cf7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 879761806671071580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1372516008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3660,7 +3666,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6065394511051387454, guid: c8b84db83b0902f49804540d2ba3cf7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 879761806671071586}
+    - targetCorrespondingSourceObject: {fileID: 6065394511051387454, guid: c8b84db83b0902f49804540d2ba3cf7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 879761806671071585}
   m_SourcePrefab: {fileID: 100100000, guid: c8b84db83b0902f49804540d2ba3cf7e, type: 3}
 --- !u!114 &879761806671071581 stripped
 MonoBehaviour:
@@ -3668,7 +3682,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 879761806671071580}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1344183343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 692958db58d6923439229df0e0e167d9, type: 3}
@@ -3680,7 +3694,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 879761806671071580}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1344183343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2ee27731d496794cb6a1ab612cc2abc, type: 3}
@@ -3692,12 +3706,69 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 879761806671071580}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1344183343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0e6875da031b4046b700f42c480d79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &879761806671071585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344183343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a56a284fa08a1145ba28b80f2138919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a45bb233bef18da4ba5a650d483e04f1,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &879761806671071586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344183343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c9c023629ea2642a01847ff47da3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &3998357617480416958
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -64,7 +64,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}"/>
+				<Event Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}">
+					<ChildrenList>
+						<Action Name="" ID="{1C10115F-275E-47AD-A120-3FEF99283603}" ShortID="1019679231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerHitObstacle" ID="{B697E3A3-D1E9-49CA-A834-021C0037EF20}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EDF841F9-750E-46A4-8B42-CC74C7679A0C}" ShortID="496441998">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{37A86947-1B1F-4BF4-AA98-2666E994F35C}" ShortID="729406456">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMusicSwitch" ID="{15B95160-C2BE-4C43-8427-93DF497E5F23}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

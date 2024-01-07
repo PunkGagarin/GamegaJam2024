@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{80839E57-8427-C72E-84CE-D0A6C1178DBF}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{BFD5E0BD-E6E0-1328-48E9-8551896E05E3}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -65,6 +65,10 @@
 					<ShortName>CranberryRun_Fast_130 bpm.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Fast_130 bpm_56CEF360.wem</CachePath>
 				</File>
+				<File Id="584922121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerHitObstacle_3.wav</ShortName>
+					<CachePath>SFX/PlayerHitObstacle_3_5990C61B.wem</CachePath>
+				</File>
 				<File Id="608927884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
 					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_76B83DD0.wem</CachePath>
@@ -77,9 +81,17 @@
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
 					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem</CachePath>
 				</File>
+				<File Id="637546919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerHitObstacle_2.wav</ShortName>
+					<CachePath>SFX/PlayerHitObstacle_2_30A6E599.wem</CachePath>
+				</File>
 				<File Id="763560362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
 					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem</CachePath>
+				</File>
+				<File Id="844252909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerHitObstacle_1.wav</ShortName>
+					<CachePath>SFX/PlayerHitObstacle_1_48D226A7.wem</CachePath>
 				</File>
 				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition4.wav</ShortName>
@@ -96,6 +108,8 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
@@ -177,8 +191,68 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3877475578" Name="PlayerHitObstacle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4227290872" Name="Rolling" DurationType="Infinite">
+				<Event Id="3877475578" Name="PlayerHitObstacle" DurationType="OneShot" DurationMin="0.15464991" DurationMax="0.24401507">
+					<MediaRefs>
+						<MediaRef Id="4723835"/>
+						<MediaRef Id="51539956"/>
+						<MediaRef Id="226880082"/>
+						<MediaRef Id="331584380"/>
+						<MediaRef Id="434772369"/>
+						<MediaRef Id="442918512"/>
+						<MediaRef Id="584922121"/>
+						<MediaRef Id="612642456"/>
+						<MediaRef Id="637546919"/>
+						<MediaRef Id="844252909"/>
+						<MediaRef Id="886556164"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="3374585465"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="32474769"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="787604482"/>
+									<MediaRefs>
+										<MediaRef Id="964050207"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2849147824"/>
+									<MediaRefs>
+										<MediaRef Id="974797755"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1045871717" Id="984691642"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2965380179"/>
+									<MediaRefs>
+										<MediaRef Id="540179265"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4227290872" Name="Rolling" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="4723835"/>
 						<MediaRef Id="434772369"/>
@@ -202,10 +276,22 @@
 				</Event>
 			</Events>
 			<Busses>
-				<Bus Id="89505537" Name="Gameplay"/>
+				<Bus Id="89505537" Name="Gameplay">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="3306938624" Name="StatusEffect"/>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
@@ -229,20 +315,36 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{040C73B3-3AAD-5D39-0328-C18AA4546DC3}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5317CBB7-9799-A381-33B7-8FE701952A08}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="89505537" Name="Gameplay"/>
+				<Bus Id="89505537" Name="Gameplay">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="3306938624" Name="StatusEffect"/>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
@@ -284,5 +386,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEE1E85C-E74C-D4F6-2216-7555EE4C13A5}</FileHash>
+	<FileHash>{CE200E48-3D40-C210-14CA-88D1DB50EA4A}</FileHash>
 </SoundBanksInfo>

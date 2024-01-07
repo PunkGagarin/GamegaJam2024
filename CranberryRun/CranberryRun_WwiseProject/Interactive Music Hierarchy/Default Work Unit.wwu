@@ -19,7 +19,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -28,7 +28,7 @@
 							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+							<ObjectRef Name="Music" ID="{FB45814F-7FB3-4A77-959D-67D3BC70A040}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>

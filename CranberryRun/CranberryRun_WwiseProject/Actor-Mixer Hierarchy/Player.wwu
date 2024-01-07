@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<BlendContainer Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" ShortID="449811724">
 					<PropertyList>
-						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -30,7 +30,7 @@
 							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+							<ObjectRef Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -252,25 +252,25 @@
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>1216.74615792263</RightEdgePos>
+										<RightEdgePos>25.2305246422894</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Medium" ID="{A8873FEB-42FD-44BC-B3DF-ABAC2CA1E6D6}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>827.238503709592</LeftEdgePos>
+										<LeftEdgePos>17.5039681342267</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>2101.48433677795</RightEdgePos>
+										<RightEdgePos>35.3895135827843</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Fast" ID="{16E15B80-9198-49F2-9CFF-28CB97DDBB93}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>1711.97668256492</LeftEdgePos>
+										<LeftEdgePos>28.5930047694754</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>3500</RightEdgePos>
+										<RightEdgePos>45</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
@@ -278,6 +278,112 @@
 						</BlendTrack>
 					</BlendTrackList>
 				</BlendContainer>
+				<RandomSequenceContainer Name="PlayerHitObstacle" ID="{B697E3A3-D1E9-49CA-A834-021C0037EF20}" ShortID="1040190156">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PlayerHitObstacle_1" ID="{C62AFBDD-9A34-4E28-B632-2491775F384B}" ShortID="424356258">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerHitObstacle_1" ID="{258FC6D0-0633-4074-B072-7803C4EA893A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00362847682119205"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0285742549668874"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0185959437086093"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.262611009933775"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PlayerHitObstacle_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="844252909"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerHitObstacle_1" ID="{258FC6D0-0633-4074-B072-7803C4EA893A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerHitObstacle_2" ID="{F5947667-DDED-4B90-863C-F5DDAACDA2FD}" ShortID="245313295">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerHitObstacle_2" ID="{D18EA6E4-0568-4DF2-8E6C-F9FAA9343092}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00219503311258278"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00595794701986754"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00533079470198676"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.168703973509934"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PlayerHitObstacle_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="637546919"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerHitObstacle_2" ID="{D18EA6E4-0568-4DF2-8E6C-F9FAA9343092}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PlayerHitObstacle_3" ID="{E7B550DF-BF6F-4ED4-AFED-7ADC6EC0BBC5}" ShortID="362906510">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerHitObstacle_3" ID="{82369894-E0C4-43BB-87ED-50434E9AD6CF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00242905629139073"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.026719619205298"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0242905629139073"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.17894048013245"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PlayerHitObstacle_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584922121"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerHitObstacle_3" ID="{82369894-E0C4-43BB-87ED-50434E9AD6CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

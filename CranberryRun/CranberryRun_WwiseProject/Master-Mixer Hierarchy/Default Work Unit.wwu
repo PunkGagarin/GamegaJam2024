@@ -11,10 +11,41 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{FB45814F-7FB3-4A77-959D-67D3BC70A040}"/>
-						<Bus Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}"/>
+						<Bus Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{62BF1300-9C45-4003-8CEF-3B0F408DB290}" ShortID="373909878">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 						<Bus Name="UI" ID="{650B82F4-B7DA-4306-AE04-E38467B0515C}"/>
 						<Bus Name="StatusEffect" ID="{B5492BC9-8541-47D7-B253-AC384A889C54}"/>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{F3A27EFE-8BFA-499C-AD24-BA8E4329DFEE}" ShortID="838509856">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
