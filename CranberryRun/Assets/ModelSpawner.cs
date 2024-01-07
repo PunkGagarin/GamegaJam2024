@@ -7,8 +7,11 @@ public class ModelSpawner : MonoBehaviour
 
     private float _startPointZ;
     private float _endPointZ;
+    private float _startPointX;
+    private float _endPointX;
 
-    private float _distance;
+    private float _Zdistance;
+    private float _Xdistance;
 
     [SerializeField]
     private GameObject _startPoint;
@@ -23,23 +26,35 @@ public class ModelSpawner : MonoBehaviour
     private void Start()
     {
         _startPointZ = _startPoint.transform.position.z;
+        _startPointX = _startPoint.transform.position.x;
         _endPointZ = _endPoint.transform.position.z;
-        _distance = _endPointZ - _startPointZ;
+        _endPointX = _endPoint.transform.position.x;
+        _Zdistance = _endPointZ - _startPointZ;
+        _Xdistance = _endPointX - _startPointX;
 
-        var step = _distance / 2f;
+
+        int zSteps = (int)_Zdistance / 2;
+        int xSteps = (int)_Xdistance / 2;
 
         var tmpList = new List<GameObject>(_modelsToSpawn);
 
-        var currentPoint = _startPointZ;
+        var currentPointZ = _startPointZ;
+        var currentPointX = _startPointX;
 
-        for (int i = 0; i < step; i++)
+        for (int i = 0; i < zSteps; i++)
         {
-            var pickUpModel = tmpList[Random.Range(0, tmpList.Count)];
-            Vector3 pointToInstantiate = new Vector3(_startPoint.transform.position.x, _startPoint.transform.position.y,
-                currentPoint);
+            for (int j = 0; j < xSteps; j++)
+            {
+                var pickUpModel = tmpList[Random.Range(0, tmpList.Count)];
+                Vector3 pointToInstantiate = new Vector3(currentPointX,
+                    _startPoint.transform.position.y,
+                    currentPointZ);
 
-            Instantiate(pickUpModel, pointToInstantiate, Quaternion.identity);
-            currentPoint += 2f;
+                Instantiate(pickUpModel, pointToInstantiate, Quaternion.identity);
+                currentPointX += 2f;
+            }
+            currentPointZ += 2f;
+            currentPointX = _startPointX;
         }
     }
 }
