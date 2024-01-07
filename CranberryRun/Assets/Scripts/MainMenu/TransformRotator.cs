@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainMenuCranberryMovement : MonoBehaviour
+public class TransformRotator : MonoBehaviour
 {
     [SerializeField]
     private float _degreesPerSecond = 20;
