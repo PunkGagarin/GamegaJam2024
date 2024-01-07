@@ -14,21 +14,6 @@ public class WinLeveUI : MonoBehaviour
     [field: SerializeField]
     public Button MenuButton { get; private set; }
 
-    // public UnityAction OnNextLevelPressed = delegate { };
-    // public UnityAction OnMenuButtonPressed = delegate { };
-
-    private void Awake()
-    {
-        // _nextLevelButton.onClick.AddListener(OnNextLevelPressed);
-        // _menuButton.onClick.AddListener(OnMenuButtonPressed);
-    }
-
-    private void OnDestroy()
-    {
-        // _nextLevelButton.onClick.RemoveListener(OnNextLevelPressed);
-        // _menuButton.onClick.RemoveListener(OnMenuButtonPressed);
-    }
-
     public void TurnOn()
     {
         _content.gameObject.SetActive(true);

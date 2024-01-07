@@ -1,8 +1,6 @@
-using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Gameplay.Player
+namespace Gameplay.Characters.Player
 {
 
     public class PlayerMovement : MonoBehaviour
@@ -14,17 +12,13 @@ namespace Gameplay.Player
 
         private float _accelerationTimer;
 
-        private float _currentForwardForce;
-
+        private Vector3 _velocity;
 
         [SerializeField]
         private float _accelerationTime = 1f;
 
         [SerializeField]
-        private float _accelerationProcent = .7f;
-
-        [SerializeField]
-        private float _accelerationMax = 500f;
+        private float _accelerationSpeed = .7f;
 
         [field: SerializeField]
         public float ForwardForce { get; private set; } = 100f;
@@ -32,30 +26,53 @@ namespace Gameplay.Player
         [field: SerializeField]
         public float SideForce { get; private set; } = 25;
 
+        [field: SerializeField]
+        public float CurrentSpeedThreshold { get; private set; } = 25;
+
+        [field: SerializeField]
+        public float MaxSpeedThreshold { get; private set; } = 45;
+
 
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
-            _currentForwardForce = ForwardForce;
         }
 
         private void Update()
         {
-            if (!_isMoving || _currentForwardForce >= _accelerationMax) return;
+            if (!_isMoving) return;
 
+            _accelerationTimer += Time.deltaTime;
+
+            ClampVelocity();
             Accelerate();
+        }
+
+        private void ClampVelocity()
+        {
+            _velocity = _rigidbody.velocity;
+            if (_velocity.z > CurrentSpeedThreshold)
+            {
+                _rigidbody.velocity = new Vector3(_velocity.x, _velocity.y, CurrentSpeedThreshold);
+            }
         }
 
         private void Accelerate()
         {
             if (_accelerationTimer >= _accelerationTime)
             {
-                var percentMultiplier = 1f + (_accelerationProcent / 100f);
-                _currentForwardForce *= percentMultiplier;
+                SpeedUp();
 
                 _accelerationTimer = 0f;
             }
-            _accelerationTimer += Time.deltaTime;
+        }
+
+        private void SpeedUp()
+        {
+            CurrentSpeedThreshold += _accelerationSpeed;
+
+            if (CurrentSpeedThreshold > MaxSpeedThreshold)
+                CurrentSpeedThreshold = MaxSpeedThreshold;
         }
 
 
@@ -63,7 +80,7 @@ namespace Gameplay.Player
         {
             if (!_isMoving) return;
 
-            _rigidbody.AddForce(0, 0, _currentForwardForce * Time.fixedDeltaTime);
+            _rigidbody.AddForce(0, 0, ForwardForce * Time.fixedDeltaTime);
 
             if (Input.GetKey("d"))
             {
@@ -104,7 +121,7 @@ namespace Gameplay.Player
 
         public void ChangeSpeed(float speedMultiplier)
         {
-            _currentForwardForce *= speedMultiplier;
+            ForwardForce *= speedMultiplier;
             SideForce *= speedMultiplier;
         }
     }

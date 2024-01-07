@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.03
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -2021,6 +2021,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 99.24
       objectReference: {fileID: 0}
+    - target: {fileID: 1452300484900993201, guid: d2d29bda4cc24cc48af54f26c399de84,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586201184935457732, guid: d2d29bda4cc24cc48af54f26c399de84,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3916860253422370791, guid: d2d29bda4cc24cc48af54f26c399de84,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3654,8 +3664,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7335617238625425867, guid: c8b84db83b0902f49804540d2ba3cf7e,
         type: 3}
-      propertyPath: <ForwardForce>k__BackingField
-      value: 1100
+      propertyPath: _accelerationSpeed
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,4 +1,5 @@
 ﻿using System;
+using Gameplay.Characters.Player;
 using Gameplay.EndLevel;
 using Gameplay.Player;
 using UnityEngine;
@@ -49,6 +50,7 @@ namespace Gameplay
 
             IsGameStopped = true;
             OnGameEnded.Invoke();
+            _sceneLevelManager.SetCurrentSceneAsFinished();
             _playerMovement.StopMovement();
             _endLevelManager.OpenUI();
         }

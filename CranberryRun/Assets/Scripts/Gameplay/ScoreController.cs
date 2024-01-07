@@ -51,6 +51,7 @@ namespace Gameplay
             }
             
             PlayerPrefs.SetFloat(HIGHSCORE, newScore);
+            PlayerPrefs.Save();
             SetHighScoreToUi(newScore);
         }
 
