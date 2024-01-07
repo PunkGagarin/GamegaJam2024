@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" SchemaVersion="119" RootDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" ParentDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}">
+	<Events>
+		<WorkUnit Name="Objects" ID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" OwnerID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Balalaika" ID="{0D8F67B5-A58C-4934-91D5-8E141021F6E3}"/>
+				<Event Name="Bear" ID="{102AB4FD-BEDE-4920-BF31-1A21F4CB7A8F}"/>
+				<Event Name="Vodka" ID="{351C72A2-9655-442F-A643-D008B1A3D377}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

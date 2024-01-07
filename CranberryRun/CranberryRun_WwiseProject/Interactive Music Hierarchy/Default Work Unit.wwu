@@ -5,7 +5,23 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="MainMusicSwitch" ID="{15B95160-C2BE-4C43-8427-93DF497E5F23}" ShortID="601655821">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="130"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -61,6 +77,7 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{FF795FF0-92B3-4595-917F-81332C975607}">
 														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
 															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
@@ -78,6 +95,8 @@
 										<MusicTransition Name="Transition" ID="{85B3A143-727E-452F-84A0-B57A8D928D1C}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
@@ -95,11 +114,24 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #3" ID="{9C39079C-0487-4697-A48B-F035552E15D9}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{CC1CE60F-5F62-4B5D-8990-DC59AF9AE68C}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.6"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{9BCA42B2-3DBB-4801-9AE8-38FD4C0AD70B}"/>
+												</DestinationFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{D69323F8-6479-4834-A5BC-0ED4CE9007E2}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
@@ -117,11 +149,21 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="CranberryRun_Transition4" ID="{36ABDC4B-1F66-49E9-B661-04A0622CF110}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{0F70F790-C5C3-43E2-8E3C-357B36DF47A2}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{CADFBD98-40A8-4D8F-8857-0503E288D1A2}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
@@ -139,11 +181,21 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="CranberryRun_Transition" ID="{4F31D226-76AF-4A07-BD8B-6CBA711E36DE}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{F8C97EC8-A146-4BCE-8082-F095641A09F8}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{D5EA12C2-F1E5-43EB-8A00-5E9AF8C09FBB}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
@@ -161,6 +213,15 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="CranberryRun_Transition3 - Marker #5" ID="{E016E0AA-22AD-4C39-9C3D-62E4AF0D7C1C}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{49F00562-7522-416E-B3C4-92D095195346}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -174,7 +235,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -351,6 +412,13 @@
 							</ObjectLists>
 						</MusicSegment>
 						<MusicSegment Name="CranberryRun_Transition3 - Marker #1" ID="{C2365FFF-4FCD-4B44-A9D8-A74CAD9CD9D0}" ShortID="523525545">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -635,6 +703,13 @@
 							</ObjectLists>
 						</MusicSegment>
 						<MusicSegment Name="CranberryRun_Transition3 - Marker #3" ID="{9C39079C-0487-4697-A48B-F035552E15D9}" ShortID="243003286">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -777,6 +852,13 @@
 							</ObjectLists>
 						</MusicSegment>
 						<MusicSegment Name="CranberryRun_Transition3 - Marker #4" ID="{F0DCF751-34CF-4F09-8B3C-A53542D2CD1C}" ShortID="948044335">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -919,6 +1001,13 @@
 							</ObjectLists>
 						</MusicSegment>
 						<MusicSegment Name="CranberryRun_Transition3 - Marker #5" ID="{E016E0AA-22AD-4C39-9C3D-62E4AF0D7C1C}" ShortID="316380582">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -1203,6 +1292,13 @@
 							</ObjectLists>
 						</MusicSegment>
 						<MusicPlaylistContainer Name="MusicPlaylist" ID="{4F422689-7905-4EE8-81A8-80B8CC80ECBD}" ShortID="392700963">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -1284,7 +1380,7 @@
 										<Property Name="Tempo" Type="Real64" Value="130"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1636,7 +1732,7 @@
 																				<MusicClip Name="CranberryRun_Medium_130 bpm" ID="{E22862AF-35D4-4166-BC59-EC4686CA8623}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="88615.3846153848"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="4.87055063818784"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.75871034924446"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="7.64293716657266"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="CranberryRun_Medium_130 bpm" ID="{F87A1C2C-6731-4871-B90B-A18FCA4CA770}"/>
@@ -1890,6 +1986,14 @@
 							</ChildrenList>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{969A1F4B-36E6-4BFF-9B71-E7797B5C79B5}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.337837837837828"/>
+								<Property Name="PanY" Type="Real64" Value="-1.08695652173914"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
 							<Reference>

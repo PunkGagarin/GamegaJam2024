@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2E1F2789-5FF1-4F90-B7B8-11C5741B8EC2}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2E1F2789-5FF1-4F90-B7B8-11C5741B8EC2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2E1F2789-5FF1-4F90-B7B8-11C5741B8EC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{13A5AC7E-96EE-40A6-9524-CCE72F74A46E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Rolling" ID="{5B05DA51-FA44-4D18-9700-6C85AC76A720}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rolling_Stop" ID="{DDC5EFEB-8EC7-44D6-8EAB-F79C64C15D04}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lost" ID="{033CBB82-0505-4AE6-857A-7B4EF9D304FB}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Won" ID="{6746BA73-9A07-4886-83AF-3272DC5297D9}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MainMusicSwitch" ID="{D4342FCF-0C34-4571-ABC0-BEC7945BB6CC}" WorkUnitID="{A2DD4E52-41F3-42C0-9F8F-7C0F5E551C00}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
+							<Value>3500</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="InGame" ID="{97B66BEF-DA1A-4530-963E-A0CC423B833F}"/>
+						<CurrentStateRef Name="None" ID="{DE7AF372-4AA9-42B8-B942-5DC099501F7D}"/>
+						<CurrentStateRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Fast" ID="{D0C47875-2C52-4A44-8037-FCCAFEAA4815}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
