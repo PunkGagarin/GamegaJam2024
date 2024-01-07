@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:CranberryRun/Assets/Material/Shader Graph.meta
+guid: 5e0cf38d62f612d4e9d1db89f100f82d
+folderAsset: yes
+========
 guid: d46726ce571e5d8418e9a3c446413bb3
+>>>>>>>> 68f6da329c0fb29b591fbe3c236d590cf4b3009e:CranberryRun/Assets/Scenes/Levels/GameLevel1.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
