@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Gameplay;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace MainMenu
@@ -7,6 +8,7 @@ namespace MainMenu
     public class ExitCounter : MonoBehaviour
     {
         private int _exitPressCount = 0;
+        private WwiseEventHandler _eventHandler;
 
         [SerializeField]
         private Button _exitButton;
@@ -14,6 +16,7 @@ namespace MainMenu
         public void Awake()
         {
             _exitButton.onClick.AddListener(OnExitButtonHandler);
+            _eventHandler = GetComponent<WwiseEventHandler>();
         }
 
         private void OnExitButtonHandler()
@@ -25,7 +28,7 @@ namespace MainMenu
             else
             {
                 _exitPressCount++;
-                //todo добавить проигрышь звука.
+                _eventHandler.PostEvent();
             }
         }
 

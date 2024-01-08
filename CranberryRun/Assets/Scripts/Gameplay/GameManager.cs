@@ -1,7 +1,6 @@
 ﻿using System;
 using Gameplay.Characters.Player;
 using Gameplay.EndLevel;
-using Gameplay.Player;
 using UnityEngine;
 using Zenject;
 using Task = System.Threading.Tasks.Task;
@@ -88,6 +87,14 @@ namespace Gameplay
         public void PauseGame()
         {
             Debug.Log("Game was paused");
+        }
+
+        private void Update()
+        {
+            if (Input.GetKey("esc"))
+            {
+                _sceneLevelManager.ChangeToMainMenu();
+            }
         }
     }
 

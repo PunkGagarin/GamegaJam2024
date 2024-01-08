@@ -9,8 +9,7 @@ public class SceneLevelManager : IInitializable
     private const string LastCompletedLevel = "LastLevelCompleted";
 
     private int _currentPlayLevelIndex = 1;
-
-
+    
     public void Initialize()
     {
         int nextLevel = FindNextLevelIndex();
