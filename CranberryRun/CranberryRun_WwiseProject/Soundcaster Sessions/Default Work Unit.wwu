@@ -38,7 +38,7 @@
 						<CurrentStateRef Name="Fast" ID="{15C02F5A-0528-484C-8F34-5DDF81C611CC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Slow" ID="{31A1613B-068B-47AF-A392-0B3337CEF6DF}"/>
+						<CurrentSwitchRef Name="Medium" ID="{B084FD80-A74F-49D2-B7C7-02B1A333DE91}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

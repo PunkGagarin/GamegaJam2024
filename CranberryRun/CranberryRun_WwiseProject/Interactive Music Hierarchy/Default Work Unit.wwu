@@ -8,7 +8,7 @@
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="130"/>
@@ -58,7 +58,6 @@
 										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{AD5287C1-E2F0-4E70-9F00-6B93F99D9AFC}">
 											<PropertyList>
-												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
@@ -97,7 +96,7 @@
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
@@ -132,7 +131,7 @@
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
@@ -164,7 +163,7 @@
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
@@ -196,7 +195,7 @@
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
@@ -222,6 +221,26 @@
 														</PropertyList>
 													</MusicFade>
 												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{4B7DD532-CEB3-44E7-B467-B57A9E22E977}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="MenuMusic" ID="{7ABECA1D-0EDA-4B8A-A7C2-C7C0EC8BB68E}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="CranberryRun_Transition4" ID="{36ABDC4B-1F66-49E9-B661-04A0622CF110}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}"/>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -1491,7 +1510,7 @@
 																				<MusicClip Name="CranberryRun_Slow_130 bpm" ID="{C3E5A8B1-6A6B-4F9B-BF8B-7B168257EA39}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="236307.692307692"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="6.25177163221417"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="15.095461405809"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="9.45580459372286"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="CranberryRun_Slow_130 bpm" ID="{FB801728-F6C2-4564-806E-39D8D70E42EB}"/>

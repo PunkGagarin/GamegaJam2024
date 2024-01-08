@@ -29,7 +29,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
-	3306938624	StatusEffect			\Default Work Unit\Master Audio Bus\StatusEffect	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 

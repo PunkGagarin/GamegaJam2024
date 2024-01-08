@@ -3,35 +3,120 @@
 	<AudioObjects>
 		<WorkUnit Name="Objects" ID="{4924338F-55BB-41A9-9809-6B956ABC24E5}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Bear" ID="{4F246578-DD9A-44B7-9F68-F7049CD6F203}" ShortID="81176706">
+				<RandomSequenceContainer Name="ItemPickup" ID="{569295FC-8B75-4CBA-8BB4-CDA6BB479B4F}" ShortID="484017046">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+							<ObjectRef Name="UI" ID="{650B82F4-B7DA-4306-AE04-E38467B0515C}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Balalaika" ID="{AFF333E5-BF42-4E9F-B9FF-B5C3A26894B9}" ShortID="851137780">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Vodka" ID="{83572DF6-BF54-4089-9465-8B4F1108D658}" ShortID="67626280">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Tonal interface alert 1" ID="{832DCA45-DEA5-4237-AE96-1470B79B10C7}" ShortID="665256905">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tonal interface alert 1" ID="{9B4C967E-1A64-471D-B28F-56E01A4E3A0C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0188203811325855"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0294447898364644"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tonal interface alert 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="662133970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tonal interface alert 1" ID="{9B4C967E-1A64-471D-B28F-56E01A4E3A0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tonal interface alert 2" ID="{A7F6B825-8EBC-4D74-A1A0-BD6B560E4758}" ShortID="463457036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tonal interface alert 2" ID="{7EA91FA0-2EDC-4617-A9C2-6EF11E7C45FC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0187701627305588"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0606420642064207"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tonal interface alert 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="909225659"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tonal interface alert 2" ID="{7EA91FA0-2EDC-4617-A9C2-6EF11E7C45FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tonal interface alert  3" ID="{511F1396-DC6A-4CEC-B1F3-A9FAFEC94C15}" ShortID="143114762">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tonal interface alert  3" ID="{C263A83A-4B40-42BF-B67C-2E93B4D6E92D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00990074517655847"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0354776702160012"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tonal interface alert  3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="928988750"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tonal interface alert  3" ID="{C263A83A-4B40-42BF-B67C-2E93B4D6E92D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{E44E0E07-C79B-46AF-BFDD-715609EB5318}" ShortID="829537720">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+												<ObjectRef Name="Secret_message" ID="{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

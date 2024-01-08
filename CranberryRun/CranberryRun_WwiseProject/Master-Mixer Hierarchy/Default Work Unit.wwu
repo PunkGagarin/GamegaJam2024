@@ -10,7 +10,28 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{FB45814F-7FB3-4A77-959D-67D3BC70A040}"/>
+						<Bus Name="Music" ID="{FB45814F-7FB3-4A77-959D-67D3BC70A040}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="UI" ID="{650B82F4-B7DA-4306-AE04-E38467B0515C}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 						<Bus Name="Gameplay" ID="{6F671F96-3D7D-44EB-9D5F-EABAF4FB0C65}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
@@ -29,7 +50,6 @@
 							</ObjectLists>
 						</Bus>
 						<Bus Name="UI" ID="{650B82F4-B7DA-4306-AE04-E38467B0515C}"/>
-						<Bus Name="StatusEffect" ID="{B5492BC9-8541-47D7-B253-AC384A889C54}"/>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Effects">

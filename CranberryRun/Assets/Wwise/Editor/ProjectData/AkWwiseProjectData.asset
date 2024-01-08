@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e32e06ac0a8204e85d575dfc7435315
     GuidInternal: 
-    m_lastTime: -8584968807123869238
+    m_lastTime: -8584968726228051877
     List:
     - name: Gameplay
       guid: 961f676f7d3deb449d5feabaf4fb0c65
@@ -88,23 +88,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: 4f8145fbb37f774a959d67d3bc70a040
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
-    - name: StatusEffect
-      guid: c92b49b54185d747b253ac384a889c54
-      id: 3306938624
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 2e32e06ac0a8204e85d575dfc7435315
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: StatusEffect
-        ObjectType: 2
-        guid: c92b49b54185d747b253ac384a889c54
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\StatusEffect
     - name: UI
       guid: f4820b65dab70643ae04e38467b0515c
       id: 1551306167
@@ -134,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 02abf57882fa8540b4923c06de426dac
     GuidInternal: 
-    m_lastTime: -8584968748833084952
+    m_lastTime: -8584968722025973507
     List:
     - name: Game
       guid: 629719aa84540048a20d7f6ad1ada1cc
@@ -270,11 +253,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Objects
     guid: fb0ab0adbbe43747b7b3ef78df4a9bff
     GuidInternal: 
-    m_lastTime: -8584969847316828154
+    m_lastTime: -8584968726228527287
     List:
-    - name: Balalaika
-      guid: b5678f0d8ca5344991d58e141021f6e3
-      id: 3322090543
+    - name: ItemPickup
+      guid: 3af223cee9869f42ad3c9492a437adb1
+      id: 1851462748
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -285,53 +268,13 @@ MonoBehaviour:
       - ElementName: Objects
         ObjectType: 12
         guid: fb0ab0adbbe43747b7b3ef78df4a9bff
-      - ElementName: Balalaika
+      - ElementName: ItemPickup
         ObjectType: 3
-        guid: b5678f0d8ca5344991d58e141021f6e3
-      Path: Events\Default Work Unit\Objects\Balalaika
+        guid: 3af223cee9869f42ad3c9492a437adb1
+      Path: Events\Default Work Unit\Objects\ItemPickup
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Bear
-      guid: fdb42a10debe2049bf311a21f4cb7a8f
-      id: 1190179415
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 54beccaa3717d74abdced8f976a4b152
-      - ElementName: Objects
-        ObjectType: 12
-        guid: fb0ab0adbbe43747b7b3ef78df4a9bff
-      - ElementName: Bear
-        ObjectType: 3
-        guid: fdb42a10debe2049bf311a21f4cb7a8f
-      Path: Events\Default Work Unit\Objects\Bear
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Vodka
-      guid: a2721c3555962f44a643d008b1a3d377
-      id: 2902123432
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 54beccaa3717d74abdced8f976a4b152
-      - ElementName: Objects
-        ObjectType: 12
-        guid: fb0ab0adbbe43747b7b3ef78df4a9bff
-      - ElementName: Vodka
-        ObjectType: 3
-        guid: a2721c3555962f44a643d008b1a3d377
-      Path: Events\Default Work Unit\Objects\Vodka
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.22918367
+      minDuration: 0.229161
   - PhysicalPath: Events\Obstacles.wwu
     PathAndIcons:
     - ElementName: Events
@@ -458,7 +401,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: ba66fcfd0a67e348b34b05948c97f4a0
     GuidInternal: 
-    m_lastTime: -8584968773843612577
+    m_lastTime: -8584968731810487212
     List:
     - name: Exit
       guid: 9ec7d29348e4694988242252cc8b3fbe
@@ -905,7 +848,7 @@ MonoBehaviour:
     m_lastTime: -8584971332941604487
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c000000
+  ExpandedWaapiItemIds: 05000000060000000c0000000e0000000f00000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

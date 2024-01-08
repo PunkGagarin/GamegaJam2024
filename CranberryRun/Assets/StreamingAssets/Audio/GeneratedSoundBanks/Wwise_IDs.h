@@ -14,10 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
-        static const AkUniqueID BALALAIKA = 3322090543U;
-        static const AkUniqueID BEAR = 1190179415U;
         static const AkUniqueID EXIT = 26822469U;
         static const AkUniqueID HOVER = 3753593413U;
+        static const AkUniqueID ITEMPICKUP = 1851462748U;
         static const AkUniqueID LOST = 221232711U;
         static const AkUniqueID OPTIONS = 4141130937U;
         static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
@@ -25,7 +24,6 @@ namespace AK
         static const AkUniqueID ROLLING = 4227290872U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
         static const AkUniqueID VIRUS = 3455673912U;
-        static const AkUniqueID VODKA = 2902123432U;
         static const AkUniqueID WON = 1080430619U;
     } // namespace EVENTS
 
@@ -103,7 +101,6 @@ namespace AK
         static const AkUniqueID GAMEPLAY = 89505537U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
-        static const AkUniqueID STATUSEFFECT = 3306938624U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 

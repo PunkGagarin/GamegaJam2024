@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{640F97FC-5378-59F9-1722-FBAEDFCD8927}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{B37CED8D-757E-B3B3-217D-68DD31E3DABB}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -47,7 +47,7 @@
 				</File>
 				<File Id="386822849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Win.wav</ShortName>
-					<CachePath>SFX/Win_62362ABF.wem</CachePath>
+					<CachePath>SFX/Win_3F4730D5.wem</CachePath>
 				</File>
 				<File Id="434772369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FastMovement.wav</ShortName>
@@ -63,7 +63,7 @@
 				</File>
 				<File Id="470132908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hover.wav</ShortName>
-					<CachePath>SFX/Hover_513FCC3E.wem</CachePath>
+					<CachePath>SFX/Hover_1D59DA26.wem</CachePath>
 				</File>
 				<File Id="472810870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Options.wav</ShortName>
@@ -79,11 +79,11 @@
 				</File>
 				<File Id="584922121" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_3.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_3_850FFD0C.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_3_5990C61B.wem</CachePath>
 				</File>
 				<File Id="587669883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Win.wav</ShortName>
-					<CachePath>SFX/Win_CBAE0CA0.wem</CachePath>
+					<CachePath>SFX/Win_5C1676CC.wem</CachePath>
 				</File>
 				<File Id="608927884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
@@ -99,11 +99,15 @@
 				</File>
 				<File Id="637546919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_2.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_2_8FF6FF70.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_2_30A6E599.wem</CachePath>
+				</File>
+				<File Id="662133970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tonal interface alert 1.wav</ShortName>
+					<CachePath>SFX/Tonal interface alert 1_775625AA.wem</CachePath>
 				</File>
 				<File Id="674709839" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Вы были заражены новым вирусом.wav</ShortName>
-					<CachePath>SFX/Вы были заражены новым вирусом_A3E4A42C.wem</CachePath>
+					<CachePath>SFX/Вы были заражены новым вирусом_BB4993C8.wem</CachePath>
 				</File>
 				<File Id="763560362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
@@ -111,15 +115,23 @@
 				</File>
 				<File Id="844252909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_1.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_1_1E38C639.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_1_48D226A7.wem</CachePath>
 				</File>
 				<File Id="846623229" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>маленький вирус.wav</ShortName>
-					<CachePath>SFX/маленький вирус_9DD352D1.wem</CachePath>
+					<CachePath>SFX/маленький вирус_72E9DE36.wem</CachePath>
 				</File>
 				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition4.wav</ShortName>
 					<CachePath>SFX/CranberryRun_Transition4_56CEF360.wem</CachePath>
+				</File>
+				<File Id="909225659" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tonal interface alert 2.wav</ShortName>
+					<CachePath>SFX/Tonal interface alert 2_A4224139.wem</CachePath>
+				</File>
+				<File Id="928988750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tonal interface alert  3.wav</ShortName>
+					<CachePath>SFX/Tonal interface alert  3_7F91B928.wem</CachePath>
 				</File>
 				<File Id="964050207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Slow_130 bpm.wav</ShortName>
@@ -134,6 +146,7 @@
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="2568359573" Name="Secret_message" LibName="Wwise Harmonizer" LibId="9043971"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
@@ -143,8 +156,6 @@
 						<MediaRef Id="436758403"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3322090543" Name="Balalaika" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1190179415" Name="Bear" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="26822469" Name="Exit" DurationType="OneShot" DurationMin="2.831678" DurationMax="2.831678">
 					<MediaRefs>
 						<MediaRef Id="579841233"/>
@@ -154,6 +165,18 @@
 					<MediaRefs>
 						<MediaRef Id="470132908"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="1851462748" Name="ItemPickup" DurationType="OneShot" DurationMin="0.229161" DurationMax="0.22918367">
+					<MediaRefs>
+						<MediaRef Id="662133970"/>
+						<MediaRef Id="909225659"/>
+						<MediaRef Id="928988750"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2568359573"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="221232711" Name="Lost" DurationType="OneShot" DurationMin="2.9330318" DurationMax="3.8791711">
 					<MediaRefs>
@@ -305,7 +328,6 @@
 						<MediaRef Id="846623229"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2902123432" Name="Vodka" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1080430619" Name="Won" DurationType="OneShot" DurationMin="3.2785304" DurationMax="5.429547">
 					<MediaRefs>
 						<MediaRef Id="386822849"/>
@@ -322,7 +344,6 @@
 					</PluginRefs>
 				</Bus>
 				<Bus Id="1551306167" Name="UI"/>
-				<Bus Id="3306938624" Name="StatusEffect"/>
 				<Bus Id="3803692087" Name="Master Audio Bus">
 					<PluginRefs>
 						<ShareSets>
@@ -354,7 +375,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E7B604A2-56E1-DE19-CEAD-BC26309F72CA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AE7888FB-1DF5-713C-BBB8-968D77F1682A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -376,7 +397,6 @@
 					</PluginRefs>
 				</Bus>
 				<Bus Id="1551306167" Name="UI"/>
-				<Bus Id="3306938624" Name="StatusEffect"/>
 				<Bus Id="3803692087" Name="Master Audio Bus">
 					<PluginRefs>
 						<ShareSets>
@@ -426,5 +446,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B61FB3EA-371C-C233-D098-FEE1A8F5A5F2}</FileHash>
+	<FileHash>{2030CD9B-49A7-E0B7-ED85-1883A5272DF4}</FileHash>
 </SoundBanksInfo>

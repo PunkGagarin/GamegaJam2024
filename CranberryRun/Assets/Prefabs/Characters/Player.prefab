@@ -139,6 +139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692958db58d6923439229df0e0e167d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bonusEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ebfbadfc9e56e2f45ac2f10fb5f40d1e,
+      type: 2}
 --- !u!114 &664161761404265450
 MonoBehaviour:
   m_ObjectHideFlags: 0
