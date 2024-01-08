@@ -14,7 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Hover" ID="{3143CFA1-89AA-4BF6-A6C2-1948D9B9AE1E}"/>
+				<Event Name="Hover" ID="{3143CFA1-89AA-4BF6-A6C2-1948D9B9AE1E}">
+					<ChildrenList>
+						<Action Name="" ID="{8207C4EA-3260-46D3-8F63-B141484F429B}" ShortID="635761678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hover" ID="{680FF797-F1D5-4AB7-8F08-40578BB7CF06}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Options" ID="{56326752-8A9B-4FC1-9D82-0A45861D2B00}">
 					<ChildrenList>
 						<Action Name="" ID="{B398C89C-5887-4468-B085-226F40D9F176}" ShortID="831499187">
@@ -26,7 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Virus" ID="{AEFFFCA8-E259-4D8E-A5F3-1B9AA94BE8C6}"/>
+				<Event Name="Virus" ID="{AEFFFCA8-E259-4D8E-A5F3-1B9AA94BE8C6}">
+					<ChildrenList>
+						<Action Name="" ID="{A4CC3518-C873-46AC-9F80-95C068F1B6C6}" ShortID="83171542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Virus" ID="{EEAFCDCE-8113-489C-B12B-1F409049A196}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

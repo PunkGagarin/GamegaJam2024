@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" SchemaVersion="119" RootDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" ParentDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}">
 	<Events>
-		<WorkUnit Name="Obstacles" ID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" OwnerID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" PersistMode="Nested">
-			<ChildrenList>
-				<Event Name="Wall" ID="{6C0299A7-92B3-469E-BD5D-88DD62056188}"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Obstacles" ID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" OwnerID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" PersistMode="Nested"/>
 	</Events>
 </WwiseDocument>

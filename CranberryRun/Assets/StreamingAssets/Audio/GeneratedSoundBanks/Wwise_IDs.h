@@ -17,14 +17,15 @@ namespace AK
         static const AkUniqueID BALALAIKA = 3322090543U;
         static const AkUniqueID BEAR = 1190179415U;
         static const AkUniqueID EXIT = 26822469U;
+        static const AkUniqueID HOVER = 3753593413U;
         static const AkUniqueID LOST = 221232711U;
         static const AkUniqueID OPTIONS = 4141130937U;
         static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
         static const AkUniqueID PLAYERHITOBSTACLE = 3877475578U;
         static const AkUniqueID ROLLING = 4227290872U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
+        static const AkUniqueID VIRUS = 3455673912U;
         static const AkUniqueID VODKA = 2902123432U;
-        static const AkUniqueID WALL = 2108779961U;
         static const AkUniqueID WON = 1080430619U;
     } // namespace EVENTS
 
