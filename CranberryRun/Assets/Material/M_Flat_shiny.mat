@@ -42,7 +42,7 @@ Material:
     - _QueueOffset: 0
     - _glow_amount: 0.59
     - _glow_power: 1.351
-    - _glow_speed: 2.16
+    - _glow_speed: 7
     - _mutiply: 1
     m_Colors:
     - _Saturation: {r: 1, g: 1, b: 1, a: 0}
