@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DELETESAVES = 1522575818U;
         static const AkUniqueID EXIT = 26822469U;
         static const AkUniqueID HOVER = 3753593413U;
         static const AkUniqueID ITEMPICKUP = 1851462748U;
