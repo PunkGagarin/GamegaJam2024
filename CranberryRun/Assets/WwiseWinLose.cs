@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class WwiseWinLose : MonoBehaviour
 {
-       [SerializeField]
-        private AK.Wwise.Event _winEvent;
-             [SerializeField]
-        private AK.Wwise.Event _loseEvent;
+    [SerializeField]
+    private AK.Wwise.Event _winEvent;
 
-        public void PostWinEvent()
-        {
-            _winEvent.Post(gameObject);
-        }
-                public void PostLoseEvent()
-        {
-            _loseEvent.Post(gameObject);
-        }
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private AK.Wwise.Event _loseEvent;
+
+    public void PlayWinSound()
     {
-        
+        _winEvent.Post(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayLoseSound()
     {
-        
+        _loseEvent.Post(gameObject);
     }
 }

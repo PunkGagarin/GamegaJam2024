@@ -14,6 +14,8 @@ namespace Gameplay
 
         public bool IsGameStopped { get; private set; }
         private int _restartTimeMilis;
+
+        private WwiseWinLose _winLoseAudio;
     
         [Inject] private PlayerCollision _playerCollision;
         [Inject] private PlayerMovement _playerMovement;
@@ -29,14 +31,15 @@ namespace Gameplay
 
         public void Awake()
         {
-            _playerCollision.OnObstacleHit += OnObstacleHit;
+            _winLoseAudio = GetComponent<WwiseWinLose>();
+            _playerCollision.OnObstacleHit += TryLoseLevel;
             _endTrigger.OnEndTriggerPassed += TryWinLevel;
             _restartTimeMilis = (int)(_restartTime * 1000f);
         }
 
         public void OnDestroy()
         {
-            _playerCollision.OnObstacleHit -= OnObstacleHit;
+            _playerCollision.OnObstacleHit -= TryLoseLevel;
             _endTrigger.OnEndTriggerPassed -= TryWinLevel;
         }
 
@@ -48,17 +51,19 @@ namespace Gameplay
             }
 
             IsGameStopped = true;
+            _winLoseAudio.PlayWinSound();
             OnGameEnded.Invoke();
             _sceneLevelManager.SetCurrentSceneAsFinished();
             _playerMovement.StopMovement();
             _endLevelManager.OpenUI();
         }
 
-        private void OnObstacleHit()
+        private void TryLoseLevel()
         {
             if (IsGameStopped) return;
 
             IsGameStopped = true;
+            _winLoseAudio.PlayLoseSound();
             OnGameEnded.Invoke();
             _loseLevelUI.TurnOn();
             RestartWithDelay(_restartTimeMilis);
