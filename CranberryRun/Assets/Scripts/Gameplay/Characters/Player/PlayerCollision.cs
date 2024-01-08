@@ -20,6 +20,9 @@ namespace Gameplay.Characters.Player
 
         public Action OnObstacleHit = delegate { };
 
+        [SerializeField]
+        private AK.Wwise.Event _bonusEvent;
+
         private void Awake()
         {
             _wwiseEventHandler = GetComponent<WwiseEventHandler>();
@@ -52,6 +55,7 @@ namespace Gameplay.Characters.Player
             if (other.CompareTag(BonusTag))
             {
                 _scoreController.AddBonusScore();
+                _bonusEvent.Post(gameObject);
                 var bonus = other.gameObject.GetComponent<ItemPackBonus>();
                 bonus.TurnOffPrefab();
             }
