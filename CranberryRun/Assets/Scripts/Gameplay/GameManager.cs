@@ -14,7 +14,7 @@ namespace Gameplay
 
         public bool IsGameStopped { get; private set; }
         private int _restartTimeMilis;
-
+    
         [Inject] private PlayerCollision _playerCollision;
         [Inject] private PlayerMovement _playerMovement;
         [Inject] private EndTrigger _endTrigger;
@@ -44,7 +44,6 @@ namespace Gameplay
         {
             if (!CanWin())
             {
-                Debug.LogError("Trying win level while game is already over");
                 return;
             }
 
