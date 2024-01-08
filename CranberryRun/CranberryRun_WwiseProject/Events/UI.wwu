@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" SchemaVersion="119" RootDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" ParentDocumentID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}">
+	<Events>
+		<WorkUnit Name="UI" ID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" OwnerID="{AACCBE54-1737-4AD7-BDCE-D8F976A4B152}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Exit" ID="{93D2C79E-E448-4969-8824-2252CC8B3FBE}">
+					<ChildrenList>
+						<Action Name="" ID="{25495D4B-82C4-44E3-8910-E268D3CAC32E}" ShortID="725746515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exit" ID="{32F722EB-147D-430E-B7AA-F956EC3FD96B}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hover" ID="{3143CFA1-89AA-4BF6-A6C2-1948D9B9AE1E}"/>
+				<Event Name="Options" ID="{56326752-8A9B-4FC1-9D82-0A45861D2B00}">
+					<ChildrenList>
+						<Action Name="" ID="{B398C89C-5887-4468-B085-226F40D9F176}" ShortID="831499187">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Options" ID="{AE23CD45-2F06-4D6C-8B57-9D0A1956FAC6}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Virus" ID="{AEFFFCA8-E259-4D8E-A5F3-1B9AA94BE8C6}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

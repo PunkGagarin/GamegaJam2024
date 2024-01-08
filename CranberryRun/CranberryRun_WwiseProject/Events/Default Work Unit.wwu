@@ -8,6 +8,7 @@
 				<WorkUnit Name="Objects" ID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" PersistMode="Reference"/>
 				<WorkUnit Name="Obstacles" ID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

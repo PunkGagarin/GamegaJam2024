@@ -16,7 +16,9 @@ namespace AK
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID BALALAIKA = 3322090543U;
         static const AkUniqueID BEAR = 1190179415U;
+        static const AkUniqueID EXIT = 26822469U;
         static const AkUniqueID LOST = 221232711U;
+        static const AkUniqueID OPTIONS = 4141130937U;
         static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
         static const AkUniqueID PLAYERHITOBSTACLE = 3877475578U;
         static const AkUniqueID ROLLING = 4227290872U;
