@@ -4,11 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	221232711	Lost			\Default Work Unit\Player\Lost	
 	1080430619	Won			\Default Work Unit\Player\Won	
 	1190179415	Bear			\Default Work Unit\Objects\Bear	
-	2108779961	Wall			\Default Work Unit\Obstacles\Wall	
 	2477713992	Stop_Ambience			\Default Work Unit\Ambience\Stop_Ambience	
 	2902123432	Vodka			\Default Work Unit\Objects\Vodka	
 	3322090543	Balalaika			\Default Work Unit\Objects\Balalaika	
+	3455673912	Virus			\Default Work Unit\UI\Virus	
 	3684206702	Play_MainMusicSwitch			\Default Work Unit\Music\Play_MainMusicSwitch	
+	3753593413	Hover			\Default Work Unit\UI\Hover	
 	3877475578	PlayerHitObstacle			\Default Work Unit\Player\PlayerHitObstacle	
 	4141130937	Options			\Default Work Unit\UI\Options	
 	4227290872	Rolling			\Default Work Unit\Player\Rolling	
@@ -62,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	434772369	FastMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\FastMovement_526A5A83.wem		\Actor-Mixer Hierarchy\Player\Rolling\Fast\FastMovement		337940
 	436758403	QP14 1752 Quietudes Coniferous Forests night breeze V4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\QP14 1752 Quietudes Coniferous Forests night breeze V4_9131A3BB.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\QP14 1752 Quietudes Coniferous Forests night breeze V4		859350
 	442918512	MediumMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\MediumMovement_6D975967.wem		\Actor-Mixer Hierarchy\Player\Rolling\Medium\MediumMovement		339199
+	470132908	Hover	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\Hover_513FCC3E.wem		\Actor-Mixer Hierarchy\UI\UI\Hover\Hover		2143
 	472810870	Options	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\Options_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Options\Options		45147
 	540179265	CranberryRun_Fast_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\CranberryRun_Fast_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Fast_130 bpm\CranberryRun_Fast_130 bpm		1050815
 	579841233	Exit	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\Exit_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Exit\Exit		44688
@@ -71,8 +73,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	612642456	CranberryRun_Transition	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\CranberryRun_Transition_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition\CranberryRun_Transition		33477
 	631168734	Lost_05	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_05		37902
 	637546919	PlayerHitObstacle_2	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\PlayerHitObstacle_2_8FF6FF70.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_2		5107
+	674709839	Вы были заражены новым вирусом	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\Вы были заражены новым вирусом_A3E4A42C.wem		\Actor-Mixer Hierarchy\UI\UI\Virus\Вы были заражены новым вирусом		358003
 	763560362	Lost_02	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_02		49799
 	844252909	PlayerHitObstacle_1	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\PlayerHitObstacle_1_1E38C639.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_1		5639
+	846623229	маленький вирус	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\маленький вирус_9DD352D1.wem		\Actor-Mixer Hierarchy\UI\UI\Virus\маленький вирус		65730
 	886556164	CranberryRun_Transition4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\CranberryRun_Transition4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition4\CranberryRun_Transition4		48812
 	964050207	CranberryRun_Slow_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\CranberryRun_Slow_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Slow_130 bpm\CranberryRun_Slow_130 bpm		469927
 	974797755	CranberryRun_Medium_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Mac\SFX\CranberryRun_Medium_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Medium_130 bpm\CranberryRun_Medium_130 bpm		491723

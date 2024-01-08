@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{B100F5FA-EED5-3138-945E-61216E347792}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{640F97FC-5378-59F9-1722-FBAEDFCD8927}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -47,7 +47,7 @@
 				</File>
 				<File Id="386822849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Win.wav</ShortName>
-					<CachePath>SFX/Win_3F4730D5.wem</CachePath>
+					<CachePath>SFX/Win_62362ABF.wem</CachePath>
 				</File>
 				<File Id="434772369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FastMovement.wav</ShortName>
@@ -63,7 +63,7 @@
 				</File>
 				<File Id="470132908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hover.wav</ShortName>
-					<CachePath>SFX/Hover_1D59DA26.wem</CachePath>
+					<CachePath>SFX/Hover_513FCC3E.wem</CachePath>
 				</File>
 				<File Id="472810870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Options.wav</ShortName>
@@ -79,11 +79,11 @@
 				</File>
 				<File Id="584922121" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_3.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_3_5990C61B.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_3_850FFD0C.wem</CachePath>
 				</File>
 				<File Id="587669883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Win.wav</ShortName>
-					<CachePath>SFX/Win_5C1676CC.wem</CachePath>
+					<CachePath>SFX/Win_CBAE0CA0.wem</CachePath>
 				</File>
 				<File Id="608927884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
@@ -99,11 +99,11 @@
 				</File>
 				<File Id="637546919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_2.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_2_30A6E599.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_2_8FF6FF70.wem</CachePath>
 				</File>
 				<File Id="674709839" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Вы были заражены новым вирусом.wav</ShortName>
-					<CachePath>SFX/Вы были заражены новым вирусом_BB4993C8.wem</CachePath>
+					<CachePath>SFX/Вы были заражены новым вирусом_A3E4A42C.wem</CachePath>
 				</File>
 				<File Id="763560362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
@@ -111,11 +111,11 @@
 				</File>
 				<File Id="844252909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_1.wav</ShortName>
-					<CachePath>SFX/PlayerHitObstacle_1_48D226A7.wem</CachePath>
+					<CachePath>SFX/PlayerHitObstacle_1_1E38C639.wem</CachePath>
 				</File>
 				<File Id="846623229" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>маленький вирус.wav</ShortName>
-					<CachePath>SFX/маленький вирус_72E9DE36.wem</CachePath>
+					<CachePath>SFX/маленький вирус_9DD352D1.wem</CachePath>
 				</File>
 				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition4.wav</ShortName>
@@ -426,5 +426,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5AFCD26C-6960-CE62-4916-510324EC02FE}</FileHash>
+	<FileHash>{B61FB3EA-371C-C233-D098-FEE1A8F5A5F2}</FileHash>
 </SoundBanksInfo>
