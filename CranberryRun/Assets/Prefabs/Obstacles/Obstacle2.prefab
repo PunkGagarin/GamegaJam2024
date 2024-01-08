@@ -717,6 +717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Star
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3a3dd2018cdb4ae4eae9b5e9c57f0687,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1986517768569588149, guid: 3a3dd2018cdb4ae4eae9b5e9c57f0687,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
