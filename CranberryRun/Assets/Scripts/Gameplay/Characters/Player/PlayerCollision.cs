@@ -29,7 +29,7 @@ namespace Gameplay.Characters.Player
             if (other.collider.CompareTag(ObstacleTag))
             {
                 StopMoving();
-                // _wwiseEventHandler.PostEvent();
+                _wwiseEventHandler.PostEvent();
             }
         
             if (other.collider.CompareTag(UndergroundTag))
