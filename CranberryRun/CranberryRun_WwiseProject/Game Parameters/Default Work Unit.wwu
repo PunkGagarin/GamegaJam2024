@@ -3,10 +3,15 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{20432E12-F4C8-4475-8873-747E45FE49AD}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}">
+				<GameParameter Name="PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="25"/>
 						<Property Name="Max" Type="Real64" Value="45"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MasterVolume" ID="{0AF1F40A-BFB2-46F8-A5E6-63CFE2A5CB2C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

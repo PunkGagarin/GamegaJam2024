@@ -6,6 +6,11 @@
 				<BlendContainer Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" ShortID="449811724">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>32</Value>
+							</ValueList>
+						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>5</Value>
@@ -202,7 +207,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}" WorkUnitID="{20432E12-F4C8-4475-8873-747E45FE49AD}"/>
+									<ObjectRef Name="PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}" WorkUnitID="{20432E12-F4C8-4475-8873-747E45FE49AD}"/>
 								</Reference>
 							</ReferenceList>
 							<ObjectLists>

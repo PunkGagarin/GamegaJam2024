@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{03894C28-6E5E-0898-E8F3-F7CFC1FC3C15}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{F797B8BB-04C6-8174-24E3-D3EC8F1589EC}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -318,7 +318,8 @@
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed"/>
+				<GameParameter Id="1493153371" Name="PlayerSpeed"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState">
@@ -338,7 +339,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5317CBB7-9799-A381-33B7-8FE701952A08}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{613A6F79-CE04-D74E-85C2-B5EF4CAB41BA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -371,7 +372,8 @@
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed"/>
+				<GameParameter Id="1493153371" Name="PlayerSpeed"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState">
@@ -399,7 +401,7 @@
 			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1062779386" Name="Player_Speed">
-					<GameParameterRef Id="2653406601"/>
+					<GameParameterRef Id="1493153371"/>
 					<Switches>
 						<Switch Id="787604482" Name="Slow"/>
 						<Switch Id="2849147824" Name="Medium"/>
@@ -409,5 +411,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{634B2346-DCE8-457A-AB14-D023FCAA663A}</FileHash>
+	<FileHash>{33E66725-A4C6-FB9E-783A-07440AC90928}</FileHash>
 </SoundBanksInfo>

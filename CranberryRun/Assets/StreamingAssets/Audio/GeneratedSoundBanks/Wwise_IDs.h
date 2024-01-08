@@ -88,7 +88,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID PLAYERSPEED = 1493153371U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

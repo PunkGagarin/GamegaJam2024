@@ -32,7 +32,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
+							<GameParameterRef Name="PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
 							<Value>15.232</Value>
 						</RTPCValue>
 					</RTPCValueList>

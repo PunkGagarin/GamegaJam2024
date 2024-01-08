@@ -13,7 +13,7 @@
 						<Switch Name="Fast" ID="{D0C47875-2C52-4A44-8037-FCCAFEAA4815}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
-						<GameParameterRef Name="RTPC_PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
+						<GameParameterRef Name="PlayerSpeed" ID="{2058992D-04B3-4C79-A2F9-288624B61EFA}"/>
 						<Curve Name="" ID="{2FFBEDF9-E6DE-4CC3-BA0C-569E159042BE}">
 							<PropertyList>
 								<Property Name="Flags" Type="int32" Value="65537"/>
