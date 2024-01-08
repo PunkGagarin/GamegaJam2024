@@ -22,4 +22,13 @@ public class PlayerCollision : MonoBehaviour
             OnObstacleHit.Invoke();
         }
     }
+
+    public void Update()
+    {
+        if (_movement.transform.position.y <= -2)
+        {
+            _movement.StopMovement();
+            OnObstacleHit.Invoke();
+        }
+    }
 }
