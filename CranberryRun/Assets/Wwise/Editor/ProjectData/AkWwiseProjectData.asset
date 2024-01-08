@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e32e06ac0a8204e85d575dfc7435315
     GuidInternal: 
-    m_lastTime: -8584968814707721195
+    m_lastTime: -8584968807123869238
     List:
     - name: Gameplay
       guid: 961f676f7d3deb449d5feabaf4fb0c65
@@ -134,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 02abf57882fa8540b4923c06de426dac
     GuidInternal: 
-    m_lastTime: -8584968814707696176
+    m_lastTime: -8584968773842947008
     List:
     - name: Game
       guid: 629719aa84540048a20d7f6ad1ada1cc
@@ -346,28 +346,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Obstacles
     guid: 0d1538501ec1bd4b9df596ac6d02e444
     GuidInternal: 
-    m_lastTime: -8584969847316823146
-    List:
-    - name: Wall
-      guid: a799026cb3929e46bd5d88dd62056188
-      id: 2108779961
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 54beccaa3717d74abdced8f976a4b152
-      - ElementName: Obstacles
-        ObjectType: 12
-        guid: 0d1538501ec1bd4b9df596ac6d02e444
-      - ElementName: Wall
-        ObjectType: 3
-        guid: a799026cb3929e46bd5d88dd62056188
-      Path: Events\Default Work Unit\Obstacles\Wall
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+    m_lastTime: -8584968773843622585
+    List: []
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -382,7 +362,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Player
     guid: e18cc8f9a562d043907d8f62446711d5
     GuidInternal: 
-    m_lastTime: -8584968814707671157
+    m_lastTime: -8584968807109461855
     List:
     - name: Lost
       guid: 82bb3c030505e64a857a7b4ef9d304fb
@@ -478,7 +458,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: ba66fcfd0a67e348b34b05948c97f4a0
     GuidInternal: 
-    m_lastTime: -8584968814707445963
+    m_lastTime: -8584968773843612577
     List:
     - name: Exit
       guid: 9ec7d29348e4694988242252cc8b3fbe
@@ -518,8 +498,8 @@ MonoBehaviour:
         guid: a1cf4331aa89f64ba6c21948d9b9ae1e
       Path: Events\Default Work Unit\UI\Hover
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.19971852
+      minDuration: 0.17792895
     - name: Options
       guid: 526732569b8ac14f9d820a45861d2b00
       id: 4141130937
@@ -558,8 +538,8 @@ MonoBehaviour:
         guid: a8fcffae59e28e4da5f31b9aa94be8c6
       Path: Events\Default Work Unit\UI\Virus
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 24.518549
+      minDuration: 4.251758
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -925,7 +905,7 @@ MonoBehaviour:
     m_lastTime: -8584971332941604487
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000b0000000c0000001a0000001b00000020000000
+  ExpandedWaapiItemIds: 0d0000000e00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -332,6 +332,29 @@
 							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hover" ID="{680FF797-F1D5-4AB7-8F08-40578BB7CF06}" ShortID="1069813989">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>220</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9C591AF3-EF66-4D8E-89DE-63BE14E3CDC4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -340,6 +363,35 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hover" ID="{8C2D2DCA-F9C4-4404-AF0F-FF7683311EA5}" ShortID="998417669">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hover" ID="{B7E385CA-89F7-411E-8721-37E01D20799D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0385681068106811"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.21405299279928"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hover.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470132908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hover" ID="{B7E385CA-89F7-411E-8721-37E01D20799D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Exit" ID="{32F722EB-147D-430E-B7AA-F956EC3FD96B}" ShortID="919436761">
 							<PropertyList>
@@ -383,6 +435,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Virus" ID="{EEAFCDCE-8113-489C-B12B-1F409049A196}" ShortID="290416421">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
@@ -391,6 +450,62 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Вы были заражены новым вирусом" ID="{6C15A62C-6DC3-4EE8-B6B2-8CD7A93DA743}" ShortID="614727741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Вы были заражены новым вирусом" ID="{76FA21A2-3C17-424B-BD6C-6F04A72A5E78}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.227324293072638"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.681972879217913"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Вы были заражены новым вирусом.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674709839"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Вы были заражены новым вирусом" ID="{76FA21A2-3C17-424B-BD6C-6F04A72A5E78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="маленький вирус" ID="{12F09DF5-F73B-40D3-BFBB-F887D2C5448D}" ShortID="550664601">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6AE0322E-A8C0-4E20-85D5-75DFC7435315}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="маленький вирус" ID="{BCFB2A4A-D9F8-489E-8FD2-F93D299B7761}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.134755169394491"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.25175793089513"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>маленький вирус.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846623229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="маленький вирус" ID="{BCFB2A4A-D9F8-489E-8FD2-F93D299B7761}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Options" ID="{AE23CD45-2F06-4D6C-8B57-9D0A1956FAC6}" ShortID="773333007">
 							<PropertyList>

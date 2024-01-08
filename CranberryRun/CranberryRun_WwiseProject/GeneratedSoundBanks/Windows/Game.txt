@@ -4,11 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	221232711	Lost			\Default Work Unit\Player\Lost	
 	1080430619	Won			\Default Work Unit\Player\Won	
 	1190179415	Bear			\Default Work Unit\Objects\Bear	
-	2108779961	Wall			\Default Work Unit\Obstacles\Wall	
 	2477713992	Stop_Ambience			\Default Work Unit\Ambience\Stop_Ambience	
 	2902123432	Vodka			\Default Work Unit\Objects\Vodka	
 	3322090543	Balalaika			\Default Work Unit\Objects\Balalaika	
+	3455673912	Virus			\Default Work Unit\UI\Virus	
 	3684206702	Play_MainMusicSwitch			\Default Work Unit\Music\Play_MainMusicSwitch	
+	3753593413	Hover			\Default Work Unit\UI\Hover	
 	3877475578	PlayerHitObstacle			\Default Work Unit\Player\PlayerHitObstacle	
 	4141130937	Options			\Default Work Unit\UI\Options	
 	4227290872	Rolling			\Default Work Unit\Player\Rolling	
@@ -51,28 +52,31 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4723835	SlowMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\SlowMovement_E906063A.wem		\Actor-Mixer Hierarchy\Player\Rolling\Slow\SlowMovement		370331
-	20336947	Lost_03	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_4921EDD8.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_03		41193
+	20336947	Lost_03	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_4921EDD8.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_03		41193
 	32474769	CranberryRun_MenuTheme	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_MenuTheme_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\MenuMusic\CranberryRun_MenuTheme		608614
 	51539956	CranberryRun_Transition3 - Marker #3	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #3_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #3\CranberryRun_Transition3 - Marker #3		48296
-	65226607	Lost_01	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_A05DDFBC.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_01		45133
-	170579158	Lost_04	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_20B995E7.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_04		41875
+	65226607	Lost_01	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_A05DDFBC.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_01		45133
+	170579158	Lost_04	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_20B995E7.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_04		41875
 	226880082	CranberryRun_Transition3 - Marker #4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #4\CranberryRun_Transition3 - Marker #4		43102
 	331584380	CranberryRun_Transition3 - Marker #5	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition3 - Marker #5_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition3 - Marker #5\CranberryRun_Transition3 - Marker #5		33372
-	386822849	Win	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Win_3F4730D5.wem		\Actor-Mixer Hierarchy\UI\Won\Win		86973
+	386822849	Win	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Win_3F4730D5.wem		\Actor-Mixer Hierarchy\UI\UI\Won\Win		86973
 	434772369	FastMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\FastMovement_526A5A83.wem		\Actor-Mixer Hierarchy\Player\Rolling\Fast\FastMovement		337940
 	436758403	QP14 1752 Quietudes Coniferous Forests night breeze V4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\QP14 1752 Quietudes Coniferous Forests night breeze V4_9131A3BB.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\QP14 1752 Quietudes Coniferous Forests night breeze V4		859350
 	442918512	MediumMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MediumMovement_6D975967.wem		\Actor-Mixer Hierarchy\Player\Rolling\Medium\MediumMovement		339199
-	472810870	Options	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Options_8E324C96.wem		\Actor-Mixer Hierarchy\UI\Options\Options		45147
+	470132908	Hover	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Hover_1D59DA26.wem		\Actor-Mixer Hierarchy\UI\UI\Hover\Hover		2143
+	472810870	Options	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Options_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Options\Options		45147
 	540179265	CranberryRun_Fast_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Fast_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Fast_130 bpm\CranberryRun_Fast_130 bpm		1050815
-	579841233	Exit	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Exit_8E324C96.wem		\Actor-Mixer Hierarchy\UI\Exit\Exit		44688
+	579841233	Exit	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Exit_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Exit\Exit		44688
 	584922121	PlayerHitObstacle_3	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_3_5990C61B.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_3		4535
-	587669883	Win_1	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Win_5C1676CC.wem		\Actor-Mixer Hierarchy\UI\Won\Win_1		61659
-	608927884	Lost	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_76B83DD0.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost		47712
+	587669883	Win_1	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Win_5C1676CC.wem		\Actor-Mixer Hierarchy\UI\UI\Won\Win_1		61659
+	608927884	Lost	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_76B83DD0.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost		47712
 	612642456	CranberryRun_Transition	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition\CranberryRun_Transition		33477
-	631168734	Lost_05	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_05		37902
+	631168734	Lost_05	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_EC50B5E7.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_05		37902
 	637546919	PlayerHitObstacle_2	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_2_30A6E599.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_2		5107
-	763560362	Lost_02	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem		\Actor-Mixer Hierarchy\UI\Lost\Lost_02		49799
+	674709839	Вы были заражены новым вирусом	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Вы были заражены новым вирусом_BB4993C8.wem		\Actor-Mixer Hierarchy\UI\UI\Virus\Вы были заражены новым вирусом		358003
+	763560362	Lost_02	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem		\Actor-Mixer Hierarchy\UI\UI\Lost\Lost_02		49799
 	844252909	PlayerHitObstacle_1	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_1_48D226A7.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_1		5639
+	846623229	маленький вирус	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\маленький вирус_72E9DE36.wem		\Actor-Mixer Hierarchy\UI\UI\Virus\маленький вирус		65730
 	886556164	CranberryRun_Transition4	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Transition4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\CranberryRun_Transition4\CranberryRun_Transition4		48812
 	964050207	CranberryRun_Slow_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Slow_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Slow_130 bpm\CranberryRun_Slow_130 bpm		469927
 	974797755	CranberryRun_Medium_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Medium_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Medium_130 bpm\CranberryRun_Medium_130 bpm		491723

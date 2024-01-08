@@ -8,18 +8,20 @@
 						<ObjectRef Name="Ambience" ID="{CAD9954E-1A45-4038-A8B9-092F0682A77A}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Vodka" ID="{351C72A2-9655-442F-A643-D008B1A3D377}" WorkUnitID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Won" ID="{B1F1208A-DE2D-4672-A82B-1022089AD4C0}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Wall" ID="{6C0299A7-92B3-469E-BD5D-88DD62056188}" WorkUnitID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ambience" ID="{AF1B5AB2-7A52-46A1-9A23-7679EBEC552D}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Won" ID="{6746BA73-9A07-4886-83AF-3272DC5297D9}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bear" ID="{102AB4FD-BEDE-4920-BF31-1A21F4CB7A8F}" WorkUnitID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Balalaika" ID="{0D8F67B5-A58C-4934-91D5-8E141021F6E3}" WorkUnitID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Exit" ID="{93D2C79E-E448-4969-8824-2252CC8B3FBE}" WorkUnitID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lost" ID="{033CBB82-0505-4AE6-857A-7B4EF9D304FB}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hover" ID="{3143CFA1-89AA-4BF6-A6C2-1948D9B9AE1E}" WorkUnitID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMusicSwitch" ID="{15B95160-C2BE-4C43-8427-93DF497E5F23}" WorkUnitID="{8A7D5DCB-7D81-48EA-8B98-3C616E9FA2CF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rolling" ID="{5B05DA51-FA44-4D18-9700-6C85AC76A720}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Options" ID="{56326752-8A9B-4FC1-9D82-0A45861D2B00}" WorkUnitID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
