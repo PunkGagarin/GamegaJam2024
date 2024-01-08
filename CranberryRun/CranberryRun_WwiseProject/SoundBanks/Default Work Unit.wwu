@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambience" ID="{CAD9954E-1A45-4038-A8B9-092F0682A77A}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ItemPickup" ID="{CE23F23A-86E9-429F-AD3C-9492A437ADB1}" WorkUnitID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeleteSaves" ID="{A16E34FC-9017-4669-AEC4-462BCA999B1A}" WorkUnitID="{FDFC66BA-670A-48E3-B34B-05948C97F4A0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Won" ID="{B1F1208A-DE2D-4672-A82B-1022089AD4C0}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ambience" ID="{AF1B5AB2-7A52-46A1-9A23-7679EBEC552D}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>

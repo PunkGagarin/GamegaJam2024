@@ -1307,11 +1307,6 @@
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="265846.153846154"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1456,7 +1451,7 @@
 								</MusicSegment>
 								<MusicSegment Name="CranberryRun_Slow_130 bpm" ID="{155D5FF6-1323-4DC8-9086-0099271C94E0}" ShortID="182314336">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="248902.979228652"/>
+										<Property Name="EndPosition" Type="Real64" Value="359171.871284625"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1509,7 +1504,7 @@
 																			<Local>
 																				<MusicClip Name="CranberryRun_Slow_130 bpm" ID="{C3E5A8B1-6A6B-4F9B-BF8B-7B168257EA39}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="236307.692307692"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="354461.538461539"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="15.095461405809"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="9.45580459372286"/>
 																					</PropertyList>
@@ -1527,7 +1522,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>236.30769</XPos>
+																										<XPos>354.46154</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1546,7 +1541,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>236.30769</XPos>
+																										<XPos>354.46154</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1565,7 +1560,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>236.30769</XPos>
+																										<XPos>354.46154</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1597,7 +1592,7 @@
 													<MusicCue Name="Exit Cue" ID="{BDCC6F99-CD8F-4C0A-B539-0B3DC879B4D0}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="236307.692307692"/>
+															<Property Name="TimeMs" Type="Real64" Value="354461.538461538"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -1607,7 +1602,7 @@
 								</MusicSegment>
 								<MusicSegment Name="CranberryRun_Medium_130 bpm" ID="{8CDA49EF-FF5B-49F5-8398-093ADEE9CCD5}" ShortID="1054579896">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="218998.34736491"/>
+										<Property Name="EndPosition" Type="Real64" Value="396055.727828732"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1660,7 +1655,7 @@
 																			<Local>
 																				<MusicClip Name="CranberryRun_Medium_130 bpm" ID="{E22862AF-35D4-4166-BC59-EC4686CA8623}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="206769.230769231"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="384000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="0.75871034924446"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="7.64293716657266"/>
 																					</PropertyList>
@@ -1678,7 +1673,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>206.76923</XPos>
+																										<XPos>384</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1697,7 +1692,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>206.76923</XPos>
+																										<XPos>384</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1716,7 +1711,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>206.76923</XPos>
+																										<XPos>384</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1748,7 +1743,7 @@
 													<MusicCue Name="Exit Cue" ID="{6B456DA6-7658-4509-A8DD-3800A4D827B1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="206769.230769231"/>
+															<Property Name="TimeMs" Type="Real64" Value="384000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -1758,7 +1753,7 @@
 								</MusicSegment>
 								<MusicSegment Name="CranberryRun_Fast_130 bpm" ID="{8464452B-F431-4CEE-9A46-FE0A4A06BCB4}" ShortID="812793863">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="413538.461538462"/>
+										<Property Name="EndPosition" Type="Real64" Value="649846.153846154"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1816,7 +1811,7 @@
 																			<Local>
 																				<MusicClip Name="CranberryRun_Fast_130 bpm" ID="{160FCBC7-0E5C-4ED9-8591-427DDBD7C9BE}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="354461.538461539"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="590769.230769231"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="6.3328263915201"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="67.5922559877508"/>
 																					</PropertyList>
@@ -1834,7 +1829,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>354.46154</XPos>
+																										<XPos>590.76923</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1853,7 +1848,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>354.46154</XPos>
+																										<XPos>590.76923</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1872,7 +1867,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>354.46154</XPos>
+																										<XPos>590.76923</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -1904,7 +1899,7 @@
 													<MusicCue Name="Exit Cue" ID="{AB658C5B-4118-44B8-B37B-CDDBC26E2B14}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="354461.538461538"/>
+															<Property Name="TimeMs" Type="Real64" Value="590769.230769231"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>

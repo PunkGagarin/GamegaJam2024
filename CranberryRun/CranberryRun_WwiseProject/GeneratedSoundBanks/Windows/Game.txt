@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Ambience\Ambience	
 	221232711	Lost			\Default Work Unit\Player\Lost	
 	1080430619	Won			\Default Work Unit\Player\Won	
+	1522575818	DeleteSaves			\Default Work Unit\UI\DeleteSaves	
 	1851462748	ItemPickup			\Default Work Unit\Objects\ItemPickup	
 	2477713992	Stop_Ambience			\Default Work Unit\Ambience\Stop_Ambience	
 	3455673912	Virus			\Default Work Unit\UI\Virus	
@@ -63,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	442918512	MediumMovement	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\MediumMovement_6D975967.wem		\Actor-Mixer Hierarchy\Player\Rolling\Medium\MediumMovement		339199
 	470132908	Hover	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Hover_1D59DA26.wem		\Actor-Mixer Hierarchy\UI\UI\Hover\Hover		2143
 	472810870	Options	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Options_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Options\Options		45147
+	518782207	DeleteSaves	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\с чистого листа_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\DeleteSaves		47716
 	540179265	CranberryRun_Fast_130 bpm	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\CranberryRun_Fast_130 bpm_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\MusicPlaylist\CranberryRun_Fast_130 bpm\CranberryRun_Fast_130 bpm		1050815
 	579841233	Exit	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\Exit_8E324C96.wem		\Actor-Mixer Hierarchy\UI\UI\Exit\Exit		44688
 	584922121	PlayerHitObstacle_3	C:\Users\Вова\GamegaJam2024\CranberryRun\CranberryRun_WwiseProject\.cache\Windows\SFX\PlayerHitObstacle_3_5990C61B.wem		\Actor-Mixer Hierarchy\Player\PlayerHitObstacle\PlayerHitObstacle_3		4535

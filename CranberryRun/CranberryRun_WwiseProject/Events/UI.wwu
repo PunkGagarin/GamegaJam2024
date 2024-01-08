@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DeleteSaves" ID="{A16E34FC-9017-4669-AEC4-462BCA999B1A}">
+					<ChildrenList>
+						<Action Name="" ID="{97C6FA70-0085-499F-8A16-3FC3E9807AB1}" ShortID="302209511">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeleteSaves" ID="{F4CB5A26-1E3E-4E75-876B-67FC4A41B13B}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
