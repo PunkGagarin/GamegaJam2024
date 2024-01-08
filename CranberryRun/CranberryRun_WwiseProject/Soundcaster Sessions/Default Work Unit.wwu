@@ -10,10 +10,6 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Rolling_Stop" ID="{DDC5EFEB-8EC7-44D6-8EAB-F79C64C15D04}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Lost" ID="{033CBB82-0505-4AE6-857A-7B4EF9D304FB}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}"/>
 							<Position X="1" Y="0"/>
 						</Module>

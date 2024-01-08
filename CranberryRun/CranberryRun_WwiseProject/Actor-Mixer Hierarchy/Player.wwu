@@ -21,15 +21,10 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="att_generic_10m" ID="{620C62FF-5FE4-4052-A443-EBF6E12489D4}" WorkUnitID="{CF723137-299D-432F-834E-1A9FDC953A6C}"/>
+							<ObjectRef Name="att_generic_30m" ID="{6810FDA1-B69C-4D40-8418-2C123DD13273}" WorkUnitID="{CF723137-299D-432F-834E-1A9FDC953A6C}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="General" ID="{6204D141-4F2A-4A31-BE9D-038576087482}" WorkUnitID="{307395E2-4D8A-4D7D-8AC7-0275CB80AE98}"/>

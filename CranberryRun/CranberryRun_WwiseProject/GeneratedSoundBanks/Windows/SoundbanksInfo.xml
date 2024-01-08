@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{03AD1381-B659-645B-67A1-D3677500220D}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{5C40657A-4415-F557-CAAD-EC86C0749371}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -274,14 +274,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4227290872" Name="Rolling" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="4723835"/>
-						<MediaRef Id="434772369"/>
-						<MediaRef Id="442918512"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2225439287" Name="Rolling_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="4227290872" Name="Rolling" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="4723835"/>
 						<MediaRef Id="434772369"/>
@@ -339,7 +332,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A4826043-F114-1AE6-E9D6-967B442E663F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BF09F4F3-1DB5-F5E0-6737-FA9853A2378B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -411,5 +404,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{40A7D853-ED34-A693-BEF6-0633F1F05197}</FileHash>
+	<FileHash>{A5A4F045-0E98-9E45-1B35-231460C9146C}</FileHash>
 </SoundBanksInfo>

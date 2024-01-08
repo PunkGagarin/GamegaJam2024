@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e32e06ac0a8204e85d575dfc7435315
     GuidInternal: 
-    m_lastTime: -8584968828916319186
+    m_lastTime: -8584968814707721195
     List:
     - name: Gameplay
       guid: 961f676f7d3deb449d5feabaf4fb0c65
@@ -134,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 02abf57882fa8540b4923c06de426dac
     GuidInternal: 
-    m_lastTime: -8584969847312584509
+    m_lastTime: -8584968814707696176
     List:
     - name: Game
       guid: 629719aa84540048a20d7f6ad1ada1cc
@@ -382,7 +382,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Player
     guid: e18cc8f9a562d043907d8f62446711d5
     GuidInternal: 
-    m_lastTime: -8584969626268052049
+    m_lastTime: -8584968814707671157
     List:
     - name: Lost
       guid: 82bb3c030505e64a857a7b4ef9d304fb
@@ -441,29 +441,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 51da055b44fa184d97006c85ac76a720
       Path: Events\Default Work Unit\Player\Rolling
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
-    - name: Rolling_Stop
-      guid: ebefc5ddc78ed6448eabf79c64c15d04
-      id: 2225439287
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 54beccaa3717d74abdced8f976a4b152
-      - ElementName: Player
-        ObjectType: 12
-        guid: e18cc8f9a562d043907d8f62446711d5
-      - ElementName: Rolling_Stop
-        ObjectType: 3
-        guid: ebefc5ddc78ed6448eabf79c64c15d04
-      Path: Events\Default Work Unit\Player\Rolling_Stop
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Won
       guid: 73ba4667079a864883af3272dc5297d9
       id: 1080430619
@@ -498,7 +478,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: ba66fcfd0a67e348b34b05948c97f4a0
     GuidInternal: 
-    m_lastTime: -8584969360544278707
+    m_lastTime: -8584968814707445963
     List:
     - name: Exit
       guid: 9ec7d29348e4694988242252cc8b3fbe
@@ -592,7 +572,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 122e4320c8f475448873747e45fe49ad
     GuidInternal: 
-    m_lastTime: -8584968828916234118
+    m_lastTime: -8584968827485533852
     List:
     - name: MasterVolume
       guid: 0af4f10ab2bff846a5e663cfe2a5cb2c
@@ -945,7 +925,7 @@ MonoBehaviour:
     m_lastTime: -8584971332941604487
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 030000000400000005000000060000000b0000001c0000001d0000001f000000
+  ExpandedWaapiItemIds: 05000000060000000b0000000c0000001a0000001b00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

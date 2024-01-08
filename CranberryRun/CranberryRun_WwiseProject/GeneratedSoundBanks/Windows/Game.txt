@@ -5,7 +5,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1080430619	Won			\Default Work Unit\Player\Won	
 	1190179415	Bear			\Default Work Unit\Objects\Bear	
 	2108779961	Wall			\Default Work Unit\Obstacles\Wall	
-	2225439287	Rolling_Stop			\Default Work Unit\Player\Rolling_Stop	
 	2477713992	Stop_Ambience			\Default Work Unit\Ambience\Stop_Ambience	
 	2902123432	Vodka			\Default Work Unit\Objects\Vodka	
 	3322090543	Balalaika			\Default Work Unit\Objects\Balalaika	

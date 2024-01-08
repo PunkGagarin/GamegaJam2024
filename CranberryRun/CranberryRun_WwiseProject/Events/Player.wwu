@@ -49,21 +49,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Rolling_Stop" ID="{DDC5EFEB-8EC7-44D6-8EAB-F79C64C15D04}">
-					<ChildrenList>
-						<Action Name="" ID="{BC6CF8DC-E0D2-4E97-B5BB-D59DA928E1ED}" ShortID="178856246">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Rolling" ID="{7E6A8530-D350-4AAE-8A6B-05B4F7240084}" WorkUnitID="{32B597A0-5785-4B4B-9221-7CC4394A6E46}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="PlayerHitObstacle" ID="{3308A81C-982B-4E41-8F1A-16C24A7B2682}">
 					<ChildrenList>
 						<Action Name="" ID="{1C10115F-275E-47AD-A120-3FEF99283603}" ShortID="1019679231">
@@ -76,6 +61,7 @@
 						<Action Name="" ID="{EDF841F9-750E-46A4-8B42-CC74C7679A0C}" ShortID="496441998">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

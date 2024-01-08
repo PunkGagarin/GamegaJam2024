@@ -7,7 +7,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambience" ID="{CAD9954E-1A45-4038-A8B9-092F0682A77A}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Vodka" ID="{351C72A2-9655-442F-A643-D008B1A3D377}" WorkUnitID="{ADB00AFB-E4BB-4737-B7B3-EF78DF4A9BFF}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Rolling_Stop" ID="{DDC5EFEB-8EC7-44D6-8EAB-F79C64C15D04}" WorkUnitID="{F9C88CE1-62A5-43D0-907D-8F62446711D5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Won" ID="{B1F1208A-DE2D-4672-A82B-1022089AD4C0}" WorkUnitID="{A0D19D50-143B-417F-BDC2-A3BDC0BC758E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Wall" ID="{6C0299A7-92B3-469E-BD5D-88DD62056188}" WorkUnitID="{5038150D-C11E-4BBD-9DF5-96AC6D02E444}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ambience" ID="{AF1B5AB2-7A52-46A1-9A23-7679EBEC552D}" WorkUnitID="{4B17919B-A641-4AB3-880B-6F7861A4A10F}" Origin="Manual" Filter="7"/>

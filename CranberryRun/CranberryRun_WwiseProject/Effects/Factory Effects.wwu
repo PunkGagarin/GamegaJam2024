@@ -188,6 +188,7 @@
 						</Effect>
 						<Effect Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<PropertyList>
+								<Property Name="OutputGain" Type="Real32" Value="3"/>
 								<Property Name="Threshold" Type="Real32" Value="-1"/>
 							</PropertyList>
 						</Effect>
@@ -1332,7 +1333,7 @@
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="8"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
-										<Property Name="DryLevel" Type="Real32" Value="-5"/>
+										<Property Name="DryLevel" Type="Real32" Value="-4"/>
 										<Property Name="ERLevel" Type="Real32" Value="-24"/>
 										<Property Name="ERPattern" Type="int32" Value="9"/>
 										<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
@@ -1345,7 +1346,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="180"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-28"/>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
 										<Property Name="StereoWidth" Type="Real32" Value="172"/>
 									</PropertyList>
@@ -1528,7 +1529,7 @@
 										<Property Name="DecayTime" Type="Real32" Value="1"/>
 										<Property Name="Density" Type="Real32" Value="50"/>
 										<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
-										<Property Name="ERLevel" Type="Real32" Value="-18"/>
+										<Property Name="ERLevel" Type="Real32" Value="-11"/>
 										<Property Name="ERPattern" Type="int32" Value="29"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="210"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
@@ -1540,7 +1541,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.05"/>
 										<Property Name="PreDelay" Type="Real32" Value="145"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-24"/>
 										<Property Name="RoomSize" Type="Real32" Value="73"/>
 										<Property Name="StereoWidth" Type="Real32" Value="28"/>
 									</PropertyList>

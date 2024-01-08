@@ -22,7 +22,6 @@ namespace AK
         static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
         static const AkUniqueID PLAYERHITOBSTACLE = 3877475578U;
         static const AkUniqueID ROLLING = 4227290872U;
-        static const AkUniqueID ROLLING_STOP = 2225439287U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
         static const AkUniqueID VODKA = 2902123432U;
         static const AkUniqueID WALL = 2108779961U;
