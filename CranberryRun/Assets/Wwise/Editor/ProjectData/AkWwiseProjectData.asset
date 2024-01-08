@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e32e06ac0a8204e85d575dfc7435315
     GuidInternal: 
-    m_lastTime: -8584968726228051877
+    m_lastTime: -8584968718893434839
     List:
     - name: Gameplay
       guid: 961f676f7d3deb449d5feabaf4fb0c65
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 02abf57882fa8540b4923c06de426dac
     GuidInternal: 
-    m_lastTime: -8584968722025973507
+    m_lastTime: -8584968718893379785
     List:
     - name: Game
       guid: 629719aa84540048a20d7f6ad1ada1cc
@@ -253,7 +253,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Objects
     guid: fb0ab0adbbe43747b7b3ef78df4a9bff
     GuidInternal: 
-    m_lastTime: -8584968726228527287
+    m_lastTime: -8584968718894010338
     List:
     - name: ItemPickup
       guid: 3af223cee9869f42ad3c9492a437adb1
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_lastTime: -8584971332941604487
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000e0000000f00000012000000
+  ExpandedWaapiItemIds: 050000000600000009000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
