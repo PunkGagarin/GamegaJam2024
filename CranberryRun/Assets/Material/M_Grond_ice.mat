@@ -41,6 +41,6 @@ Material:
     m_Floats:
     - _mutiply: 1.08
     m_Colors:
-    - _Saturation: {r: 1, g: 0, b: 0, a: 0}
+    - _Saturation: {r: 1, g: 1, b: 1, a: 0}
     - _add: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

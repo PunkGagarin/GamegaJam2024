@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Arrows 1
+  m_Name: M_Arrows 2
   m_Shader: {fileID: -6465566751694194690, guid: 88d241bdd926d6a45b20fffe86bbfa98,
     type: 3}
   m_Parent: {fileID: 0}
@@ -46,13 +46,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Animation_Direction: 3.14
+    - _Animation_Direction: 0
     - _Animation_Speed: 0.5
     - _Animation_Speed_X: 0
     - _Animation_Speed_Y: -0.5
     - _Emission_Multiply: 1.26
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _alpha: 1
     - _mutiply: 0.88
     m_Colors:
     - _Blend_colr: {r: 5, g: 1, b: 0.23, a: 0}
