@@ -16,6 +16,9 @@ namespace Gameplay
         [Inject] private ScoreUI _scoreUI;
         [Inject] private GameManager _gameManager;
 
+        [SerializeField]
+        private int _bonusScore = 100;
+
         private void Awake()
         {
             _gameManager.OnGameEnded += SaveCurrentScore;
@@ -73,6 +76,11 @@ namespace Gameplay
         private float CalculateCurrentScore()
         {
             return _playerCharacter.transform.position.z / 10;
+        }
+
+        public void AddBonusScore()
+        {
+            _currentScore += _bonusScore;
         }
 
     }

@@ -1,6 +1,6 @@
 using System;
+using Gameplay;
 using Gameplay.Characters.Player;
-using Gameplay.Player;
 using UnityEngine;
 using Zenject;
 
@@ -8,9 +8,11 @@ public class PlayerCollision : MonoBehaviour
 {
 
     private const string ObstacleTag = "Obstacle";
+    private const string BonusTag = "Bonus";
     private const string UndergroundTag = "Underground";
 
     [Inject] private PlayerMovement _movement;
+    [Inject] private ScoreController _scoreController;
 
     public Action OnObstacleHit = delegate { };
 
@@ -20,6 +22,16 @@ public class PlayerCollision : MonoBehaviour
         {
             _movement.StopMovement();
             OnObstacleHit.Invoke();
+        }
+        
+        
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(BonusTag))
+        {
+            _scoreController.AddBonusScore();
         }
     }
 
