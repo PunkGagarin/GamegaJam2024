@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{6DF1D7A9-EC74-7E9F-6A6D-2754F5C93140}">
+		<SoundBank Id="702482391" Type="User" Language="SFX" Hash="{640F97FC-5378-59F9-1722-FBAEDFCD8927}">
 			<ShortName>Game</ShortName>
 			<Path>Game.bnk</Path>
 			<Media>
@@ -61,6 +61,10 @@
 					<ShortName>MediumMovement.wav</ShortName>
 					<CachePath>SFX/MediumMovement_6D975967.wem</CachePath>
 				</File>
+				<File Id="470132908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hover.wav</ShortName>
+					<CachePath>SFX/Hover_513FCC3E.wem</CachePath>
+				</File>
 				<File Id="472810870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Options.wav</ShortName>
 					<CachePath>SFX/Options_8E324C96.wem</CachePath>
@@ -97,6 +101,10 @@
 					<ShortName>PlayerHitObstacle_2.wav</ShortName>
 					<CachePath>SFX/PlayerHitObstacle_2_8FF6FF70.wem</CachePath>
 				</File>
+				<File Id="674709839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Вы были заражены новым вирусом.wav</ShortName>
+					<CachePath>SFX/Вы были заражены новым вирусом_A3E4A42C.wem</CachePath>
+				</File>
 				<File Id="763560362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK VOICE Group Vocal Evil Laughing.wav</ShortName>
 					<CachePath>SFX/MAFCK VOICE Group Vocal Evil Laughing_05D3857D.wem</CachePath>
@@ -104,6 +112,10 @@
 				<File Id="844252909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHitObstacle_1.wav</ShortName>
 					<CachePath>SFX/PlayerHitObstacle_1_1E38C639.wem</CachePath>
+				</File>
+				<File Id="846623229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>маленький вирус.wav</ShortName>
+					<CachePath>SFX/маленький вирус_9DD352D1.wem</CachePath>
 				</File>
 				<File Id="886556164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CranberryRun_Transition4.wav</ShortName>
@@ -136,6 +148,11 @@
 				<Event Id="26822469" Name="Exit" DurationType="OneShot" DurationMin="2.831678" DurationMax="2.831678">
 					<MediaRefs>
 						<MediaRef Id="579841233"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3753593413" Name="Hover" DurationType="OneShot" DurationMin="0.17792895" DurationMax="0.19971852">
+					<MediaRefs>
+						<MediaRef Id="470132908"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="221232711" Name="Lost" DurationType="OneShot" DurationMin="2.9330318" DurationMax="3.8791711">
@@ -282,8 +299,13 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2477713992" Name="Stop_Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3455673912" Name="Virus" DurationType="OneShot" DurationMin="4.251758" DurationMax="24.518549">
+					<MediaRefs>
+						<MediaRef Id="674709839"/>
+						<MediaRef Id="846623229"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2902123432" Name="Vodka" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2108779961" Name="Wall" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1080430619" Name="Won" DurationType="OneShot" DurationMin="3.2785304" DurationMax="5.429547">
 					<MediaRefs>
 						<MediaRef Id="386822849"/>
@@ -404,5 +426,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B50CFB51-9367-EB0B-F2EE-380CF966C2F7}</FileHash>
+	<FileHash>{8008D5FA-9B1E-CC2B-97B1-CD3BFC7B79C6}</FileHash>
 </SoundBanksInfo>
