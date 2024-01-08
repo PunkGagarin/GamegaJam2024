@@ -91,7 +91,7 @@ namespace Gameplay
 
         private void Update()
         {
-            if (Input.GetKey("esc"))
+            if (Input.GetKey("escape"))
             {
                 _sceneLevelManager.ChangeToMainMenu();
             }
