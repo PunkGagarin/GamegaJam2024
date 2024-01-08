@@ -11,11 +11,12 @@ namespace Gameplay.Characters.Player
         private const string ObstacleTag = "Obstacle";
         private const string BonusTag = "Bonus";
         private const string UndergroundTag = "Underground";
-        
+
         private WwiseEventHandler _wwiseEventHandler;
 
         [Inject] private PlayerMovement _movement;
         [Inject] private ScoreController _scoreController;
+        [Inject] private GameManager _gameManager;
 
         public Action OnObstacleHit = delegate { };
 
@@ -29,15 +30,14 @@ namespace Gameplay.Characters.Player
             if (other.collider.CompareTag(ObstacleTag))
             {
                 StopMoving();
-                _wwiseEventHandler.PostEvent();
+                if (!_gameManager.IsGameStopped)
+                    _wwiseEventHandler.PostEvent();
             }
-        
+
             if (other.collider.CompareTag(UndergroundTag))
             {
                 StopMoving();
             }
-        
-        
         }
 
         private void StopMoving()
