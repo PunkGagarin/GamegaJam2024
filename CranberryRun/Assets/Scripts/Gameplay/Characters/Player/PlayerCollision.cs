@@ -1,46 +1,59 @@
 using System;
-using Gameplay;
-using Gameplay.Characters.Player;
 using UnityEngine;
 using Zenject;
 
-public class PlayerCollision : MonoBehaviour
+namespace Gameplay.Characters.Player
 {
 
-    private const string ObstacleTag = "Obstacle";
-    private const string BonusTag = "Bonus";
-    private const string UndergroundTag = "Underground";
-
-    [Inject] private PlayerMovement _movement;
-    [Inject] private ScoreController _scoreController;
-
-    public Action OnObstacleHit = delegate { };
-
-    public void OnCollisionEnter(Collision other)
+    public class PlayerCollision : MonoBehaviour
     {
-        if (other.collider.CompareTag(ObstacleTag) || other.collider.CompareTag(UndergroundTag))
+
+        private const string ObstacleTag = "Obstacle";
+        private const string BonusTag = "Bonus";
+        private const string UndergroundTag = "Underground";
+
+        [Inject] private PlayerMovement _movement;
+        [Inject] private ScoreController _scoreController;
+
+        public Action OnObstacleHit = delegate { };
+
+        public void OnCollisionEnter(Collision other)
+        {
+            if (other.collider.CompareTag(ObstacleTag))
+            {
+                StopMoving();
+                //play sound
+            }
+        
+            if (other.collider.CompareTag(UndergroundTag))
+            {
+                StopMoving();
+            }
+        
+        
+        }
+
+        private void StopMoving()
         {
             _movement.StopMovement();
             OnObstacleHit.Invoke();
         }
-        
-        
-    }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag(BonusTag))
+        public void OnTriggerEnter(Collider other)
         {
-            _scoreController.AddBonusScore();
+            if (other.CompareTag(BonusTag))
+            {
+                _scoreController.AddBonusScore();
+            }
+        }
+
+        public void Update()
+        {
+            if (_movement.transform.position.y <= -2)
+            {
+                StopMoving();
+            }
         }
     }
 
-    public void Update()
-    {
-        if (_movement.transform.position.y <= -2)
-        {
-            _movement.StopMovement();
-            OnObstacleHit.Invoke();
-        }
-    }
 }
