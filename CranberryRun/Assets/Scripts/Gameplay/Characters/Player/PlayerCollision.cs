@@ -52,6 +52,8 @@ namespace Gameplay.Characters.Player
             if (other.CompareTag(BonusTag))
             {
                 _scoreController.AddBonusScore();
+                var bonus = other.gameObject.GetComponent<ItemPackBonus>();
+                bonus.TurnOffPrefab();
             }
         }
 

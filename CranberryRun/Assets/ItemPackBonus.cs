@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 
 public class ItemPackBonus : MonoBehaviour
 {
+    private GameObject _choosenPrefab;
 
     [SerializeField]
     private List<GameObject> _prefabs;
@@ -12,7 +13,12 @@ public class ItemPackBonus : MonoBehaviour
     private void Awake()
     {
         Assert.IsNotEmpty(_prefabs);
-        var randomGo = _prefabs[Random.Range(0, _prefabs.Count)];
-        randomGo.gameObject.SetActive(true);
+        _choosenPrefab = _prefabs[Random.Range(0, _prefabs.Count)];
+        _choosenPrefab.gameObject.SetActive(true);
+    }
+
+    public void TurnOffPrefab()
+    {
+        _choosenPrefab.gameObject.SetActive(false);
     }
 }
