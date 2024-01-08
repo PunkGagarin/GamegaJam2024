@@ -44,7 +44,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _glow_amount: 1.66
+    - _glow_amount: 0.92
     - _glow_power: 1.16
     - _glow_speed: 4
     - _mutiply: 1
