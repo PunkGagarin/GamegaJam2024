@@ -11,7 +11,8 @@
 				</GameParameter>
 				<GameParameter Name="MasterVolume" ID="{0AF1F40A-BFB2-46F8-A5E6-63CFE2A5CB2C}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="75"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
