@@ -27,11 +27,11 @@ namespace Gameplay.Characters.Player
 
         public void OnCollisionEnter(Collision other)
         {
+            if (_gameManager.IsGameStopped) return;
             if (other.collider.CompareTag(ObstacleTag))
             {
                 StopMoving();
-                if (!_gameManager.IsGameStopped)
-                    _wwiseEventHandler.PostEvent();
+                _wwiseEventHandler.PostEvent();
             }
 
             if (other.collider.CompareTag(UndergroundTag))
@@ -48,6 +48,7 @@ namespace Gameplay.Characters.Player
 
         public void OnTriggerEnter(Collider other)
         {
+            if (_gameManager.IsGameStopped) return;
             if (other.CompareTag(BonusTag))
             {
                 _scoreController.AddBonusScore();
