@@ -11,18 +11,25 @@ namespace Gameplay.Characters.Player
         private const string ObstacleTag = "Obstacle";
         private const string BonusTag = "Bonus";
         private const string UndergroundTag = "Underground";
+        
+        private WwiseEventHandler _wwiseEventHandler;
 
         [Inject] private PlayerMovement _movement;
         [Inject] private ScoreController _scoreController;
 
         public Action OnObstacleHit = delegate { };
 
+        private void Awake()
+        {
+            _wwiseEventHandler = GetComponent<WwiseEventHandler>();
+        }
+
         public void OnCollisionEnter(Collision other)
         {
             if (other.collider.CompareTag(ObstacleTag))
             {
                 StopMoving();
-                //play sound
+                // _wwiseEventHandler.PostEvent();
             }
         
             if (other.collider.CompareTag(UndergroundTag))
