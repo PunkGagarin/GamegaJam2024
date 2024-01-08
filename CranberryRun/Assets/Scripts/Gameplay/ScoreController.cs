@@ -11,6 +11,7 @@ namespace Gameplay
         private const string HIGHSCORE = "highScore";
 
         private float _currentScore;
+        private float _currentBonusScore;
 
         [Inject] private PlayerCharacter _playerCharacter;
         [Inject] private ScoreUI _scoreUI;
@@ -75,12 +76,12 @@ namespace Gameplay
 
         private float CalculateCurrentScore()
         {
-            return _playerCharacter.transform.position.z / 10;
+            return _playerCharacter.transform.position.z / 10 + _currentBonusScore;
         }
 
         public void AddBonusScore()
         {
-            _currentScore += _bonusScore;
+            _currentBonusScore += _bonusScore;
         }
 
     }
